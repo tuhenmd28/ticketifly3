@@ -326,7 +326,10 @@
     color: #000;
     transition: all .5s;
 }
-
+.multicity{
+  background-color: white;
+  color:black  !important;
+}
 .radiobtn ul li label{
     position: relative;
     margin: 0;
@@ -398,13 +401,14 @@
   font-size: 15px;
   text-transform: uppercase;
   outline: none;
+  background: transparent;
 }
 .formIconTo li img.arrow{display: block;margin: auto;width: 40px;}
 
 
 .date{display: flex;margin-left: 20px;margin-top: 30px;align-items: center;justify-content: center;column-gap: 81.33px;}
 .date li{list-style: none;flex: 1 0 auto;position: relative;}
-.date li input{display: inline-block;width: 100%;border: none;border-bottom: 2px solid #ff6663;font-size: 16px;margin-top: 10px;outline: none;}
+.date li input{display: inline-block;background: transparent; width: 100%;border: none;border-bottom: 2px solid #ff6663;font-size: 16px;margin-top: 10px;outline: none;}
 .date li label {
   display: block;
   text-transform: capitalize;
@@ -422,7 +426,7 @@
 
 .ClsPger{display: flex;margin-left: 20px;margin-top: 30px;align-items: center;justify-content: center;column-gap: 81.33px;}
 .ClsPger li{list-style: none;flex: 1 0 auto;position: relative;}
-.ClsPger li input{display: inline-block;width: 100%;border: none;border-bottom: 2px solid #ff6663;font-size: 16px;margin-top: 10px;outline: none;}
+.ClsPger li input{display: inline-block;background: transparent; width: 100%;border: none;border-bottom: 2px solid #ff6663;font-size: 16px;margin-top: 10px;outline: none;}
 .ClsPger li label{display: block;
   text-transform: capitalize;
   font-size: 16px;

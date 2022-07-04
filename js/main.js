@@ -1,3 +1,4 @@
+
 // location element filter 
 window.onload = load();
 function load(){
@@ -18,10 +19,10 @@ function load(){
         // console.log(jQuery('selector').attr('class').split(' ')[0]);
     })
 }
-window.onload = function (){
-    $('.lowest').show(500);
-    $('div#overlay').show();
-}
+// window.onload = function (){
+//     $('.lowest').show(500);
+//     $('div#overlay').show();
+// }
 $('.page-header__call').click(function(){
     $('div#overlay').show();
     $('.lowest').toggle();
@@ -51,8 +52,8 @@ $(".text p").click(function(){
     $('.shownumber').show();
     $('div#overlay').show();
 })
+
 $(".search ").click(function(){
-    console.log('click');
     // console.log($('.search-container').hasClass("ami"))
     // $(".scerch_container").toggleClass('show');
     if($(this).children('img').attr('src')=='img/search.png'){
@@ -78,89 +79,89 @@ $(".search ").click(function(){
     })
 // }
 
-// for search icon 
-$(document).ready(function(){
-    console.log('click');
-    $("form .formcontent .passenger.sicon li").click(function(){
-        $(".passenger.sicon .addpsgerwraper").toggle(500);
-    })
-    $(".passenger.sicon button.ok.btn.btn-primary").click(function(){
-        $(".passenger.sicon .addpsgerwraper").hide(500);
-    })   
+// // for search icon 
+// $(document).ready(function(){
+//     console.log('click');
+//     $("form .formcontent .passenger.sicon li").click(function(){
+//         $(".passenger.sicon .addpsgerwraper").toggle(500);
+//     })
+//     $(".passenger.sicon button.ok.btn.btn-primary").click(function(){
+//         $(".passenger.sicon .addpsgerwraper").hide(500);
+//     })   
 
-})
+// })
 
-let passengerSicon = $(".passenger.sicon .addpsgerwraper .passengerAdd span");
-let passengerSicon1 =Number( passengerSicon[0].textContent);
-let passengerSicon2 = Number(passengerSicon[1].textContent);
-let passengerSicon3 = Number(passengerSicon[2].textContent);
-let sumSicon = passengerSicon1 + passengerSicon2 + passengerSicon3;
-let btnSicon;
-let countSicon;
-$("form .formcontent .passenger.sicon .invisible").val(Number(sumSicon.slice(0,2)));
+// let passengerSicon = $(".passenger.sicon .addpsgerwraper .passengerAdd span");
+// let passengerSicon1 =Number( passengerSicon[0].textContent);
+// let passengerSicon2 = Number(passengerSicon[1].textContent);
+// let passengerSicon3 = Number(passengerSicon[2].textContent);
+// let sumSicon = passengerSicon1 + passengerSicon2 + passengerSicon3;
+// let btnSicon;
+// let countSicon;
+// $("form .formcontent .passenger.sicon .invisible").val(Number(sumSicon.slice(0,2)));
 
-function additionS(e){
-    btnSicon = e;
-    countSicon = Number(btnSicon.previousElementSibling.textContent)
-    if(countSicon<=10){
-        ++countSicon;
-    }
-    btnSicon.previousElementSibling.innerHTML = countSicon;
-     passengerSicon1 =Number( passengerSicon[0].textContent);
-     passengerSicon2 = Number(passengerSicon[1].textContent);
-     passengerSicon3 = Number(passengerSicon[2].textContent);
-    sumSicon = passengerSicon1 + passengerSicon2 + passengerSicon3;
-    if(sumSicon==1){
-        sumSicon =  `${sumSicon} passenger`;
-    }else{
-        sumSicon =  `${sumSicon} passengers`;
+// function additionS(e){
+//     btnSicon = e;
+//     countSicon = Number(btnSicon.previousElementSibling.textContent)
+//     if(countSicon<=10){
+//         ++countSicon;
+//     }
+//     btnSicon.previousElementSibling.innerHTML = countSicon;
+//      passengerSicon1 =Number( passengerSicon[0].textContent);
+//      passengerSicon2 = Number(passengerSicon[1].textContent);
+//      passengerSicon3 = Number(passengerSicon[2].textContent);
+//     sumSicon = passengerSicon1 + passengerSicon2 + passengerSicon3;
+//     if(sumSicon==1){
+//         sumSicon =  `${sumSicon} passenger`;
+//     }else{
+//         sumSicon =  `${sumSicon} passengers`;
 
-    }
-    $("form .formcontent .passenger.sicon li samp").text(sumSicon);
-    $("form .formcontent .passenger.sicon .invisible").val(Number(sumSicon.slice(0,1)));
+//     }
+//     $("form .formcontent .passenger.sicon li samp").text(sumSicon);
+//     $("form .formcontent .passenger.sicon .invisible").val(Number(sumSicon.slice(0,1)));
 
-}
-function sumtractS(e){
-    btnSicon = e;
-    countSicon = Number(btnSicon.nextElementSibling.textContent)
-    if(countSicon>=2){
-        --countSicon;
-    }
-    btnSicon.nextElementSibling.innerHTML = countSicon;
-     passengerSicon1 =Number( passengerSicon[0].textContent);
-     passengerSicon2 = Number(passengerSicon[1].textContent);
-     passengerSicon3 = Number(passengerSicon[2].textContent);
-    sumSicon = passengerSicon1 + passengerSicon2 + passengerSicon3;
-    if(sumSicon==1){
-        sumSicon =  `${sumSicon} passenger`;
-    }else{
-        sumSicon =  `${sumSicon} passengers`;
+// }
+// function sumtractS(e){
+//     btnSicon = e;
+//     countSicon = Number(btnSicon.nextElementSibling.textContent)
+//     if(countSicon>=2){
+//         --countSicon;
+//     }
+//     btnSicon.nextElementSibling.innerHTML = countSicon;
+//      passengerSicon1 =Number( passengerSicon[0].textContent);
+//      passengerSicon2 = Number(passengerSicon[1].textContent);
+//      passengerSicon3 = Number(passengerSicon[2].textContent);
+//     sumSicon = passengerSicon1 + passengerSicon2 + passengerSicon3;
+//     if(sumSicon==1){
+//         sumSicon =  `${sumSicon} passenger`;
+//     }else{
+//         sumSicon =  `${sumSicon} passengers`;
         
-    }
-    $("form .formcontent .passenger.sicon li samp").text(sumSicon);
-    $("form .formcontent .passenger.sicon .invisible").val(Number(sumSicon.slice(0,1)));
+//     }
+//     $("form .formcontent .passenger.sicon li samp").text(sumSicon);
+//     $("form .formcontent .passenger.sicon .invisible").val(Number(sumSicon.slice(0,1)));
 
-}
-function sumtract1S(e){
-    btnSicon = e;
-    countSicon = Number(btnSicon.nextElementSibling.textContent)
-    if(countSicon>=1){
-        --countSicon;
-    }
-    btnSicon.nextElementSibling.innerHTML = countSicon;
-     passengerSicon1 =Number( passengerSicon[0].textContent);
-     passengerSicon2 = Number(passengerSicon[1].textContent);
-     passengerSicon3 = Number(passengerSicon[2].textContent);
-    sumSicon = passengerSicon1 + passengerSicon2 + passengerSicon3;
-    if(sumSicon==1){
-        sumSicon =  `${sumSicon} passenger`;
-    }else{
-        sumSicon =  `${sumSicon} passengers`;
+// }
+// function sumtract1S(e){
+//     btnSicon = e;
+//     countSicon = Number(btnSicon.nextElementSibling.textContent)
+//     if(countSicon>=1){
+//         --countSicon;
+//     }
+//     btnSicon.nextElementSibling.innerHTML = countSicon;
+//      passengerSicon1 =Number( passengerSicon[0].textContent);
+//      passengerSicon2 = Number(passengerSicon[1].textContent);
+//      passengerSicon3 = Number(passengerSicon[2].textContent);
+//     sumSicon = passengerSicon1 + passengerSicon2 + passengerSicon3;
+//     if(sumSicon==1){
+//         sumSicon =  `${sumSicon} passenger`;
+//     }else{
+//         sumSicon =  `${sumSicon} passengers`;
 
-    }
-    $("form .formcontent .passenger.sicon li samp").text(sumSicon);
-    $("form .formcontent .passenger.sicon .invisible").val(Number(sumSicon.slice(0,1)));
-}
+//     }
+//     $("form .formcontent .passenger.sicon li samp").text(sumSicon);
+//     $("form .formcontent .passenger.sicon .invisible").val(Number(sumSicon.slice(0,1)));
+// }
  
 // search icon click 
 

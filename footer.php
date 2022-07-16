@@ -267,6 +267,7 @@
 <!-- 
    
    <script src="js/main.js"></script> --> 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
    <script src="js/script.min.js"></script> 
    <script src="js/demo-switcher.js"></script> 
    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> 
@@ -278,6 +279,7 @@
      let addbtn = $('#add');
    $('#add').click(function(event){
    event.preventDefault();
+
    $('#dublicate>li:last-child').after(`<li >
                  <div>
                  <p>
@@ -300,9 +302,21 @@
 
   })
 })
+flatpickr("#departure", {
+        //  enableTime: true,
+        dateFormat: "m/d/Y",
+        minDate: "today",
+        // maxDate: new Date().fp_incr(14)
+      });
    });
 
+ $(".remove").each(function(){
+  $(this).click(function(event){
+    event.preventDefault();
+    $(this).parent().hide(300);
 
+  })
+})
 
       // window.onload = function() {
       //   $('.lowest').show(500);
@@ -351,6 +365,29 @@
           }
         }, ]
       });
+      $('.topDealSlider').slick({
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 3,
+        dots: true,
+        slidesToScroll:2,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        prevArrow: '  <span class="next_arow "> <i class="fas fa-chevron-left"></i> </span>',
+        nextArrow: '  <span class="prev_arow "> <i class="fas fa-chevron-right"></i> </span>',
+        responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+          }
+        }, {
+          breakpoint: 500,
+          settings: {
+            slidesToShow: 1,
+          }
+        }, ]
+      });
+
       $('.pilot').slick({
         infinite: true,
         speed: 1000,

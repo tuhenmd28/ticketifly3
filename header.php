@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <!-- slick slider -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
     <link id="cssTheme" rel="stylesheet" href="skins/style-default.css">
@@ -208,7 +209,7 @@
                     <div class="phone fw-bold">8-800-0011-2222-333</div>
                   </div>
                 </a>
-                <div class="phoneArea">
+                <div class="phoneArea d-none">
                   <!-- <div class="picon"><img src="img/phone-call.png" alt=""></div> -->
                   <div class="text">
                     <p>Call Us Toll-Free 24/7: <a href="
@@ -266,7 +267,7 @@
               </div>
               <ul class="main-nav__list nav d-flex" id="navMenu">
                 <li class="nav-item dropdown">
-                  <a class="nav-link fw-bold text-uppercase" href="#">
+                  <a class="nav-link fw-bold text-uppercase" href="flight.php">
                     <span>Flights</span>
                     <i class="caret fa fa-angle-down ml-2"></i>
                     <img src="img/down.png" alt="">
@@ -280,32 +281,32 @@
                       </a>
                       <ul class="">
                         <li class="nav-item">
-                          <a class="nav-link" href="index-2.html">
+                          <a class="nav-link" href="#topAirlineDeals">
                             <span>Top Airline Deals </span>
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="index-account.html">
+                          <a class="nav-link" href="#cheapFlightTicker">
                             <span>Cheap Flight Tickets</span>
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="index-video.html">
+                          <a class="nav-link" href="groupTravel.php">
                             <span>Group Travel</span>
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="index-video.html">
+                          <a class="nav-link" href="multicity.php">
                             <span>Multi City Flights</span>
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="index-video.html">
+                          <a class="nav-link" href="oneWayFlight.php">
                             <span> One-Way Flights</span>
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="index-video.html">
+                          <a class="nav-link" href="nonStopFlight.php">
                             <span>Non-Stop Flights</span>
                           </a>
                         </li>
@@ -320,22 +321,22 @@
                       </a>
                       <ul class="">
                         <li class="nav-item">
-                          <a class="nav-link" href="index-2.html">
+                          <a class="nav-link" href="premiumEconomyFlight.php">
                             <span>Premium Economy Flights</span>
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="index-account.html">
+                          <a class="nav-link" href="businessClassFlight.php">
                             <span>Business Class Flights</span>
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="index-video.html">
+                          <a class="nav-link" href="firstClassFlight.php">
                             <span>First Class Flights</span>
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="index-video.html">
+                          <a class="nav-link" href="businessAirlineDeals.php">
                             <span>Business Airlines Deals</span>
                           </a>
                         </li>

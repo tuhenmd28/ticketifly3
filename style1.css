@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-p,ul,li,h1,h2,h3,h4,h5{margin: 0;padding: 0;}
+f{margin: 0;padding: 0;}
 html{
     overflow-x: hidden;
     /* font-size: 62.5%; */
@@ -603,15 +603,15 @@ nav .main-nav__list .nav-link>img {
     position: relative;
   }
   
-  .recommend .container .commendSlider .next_arow {
+  .recommend  .next_arow {
     left: 0;
   }
   
-  .recommend .container .commendSlider .prev_arow {
+  .recommend  .prev_arow {
     right: 0;
   }
   
-  .recommend .container .commendSlider .next_arow, .recommend .container .commendSlider .prev_arow {
+  .recommend  .next_arow, .recommend  .prev_arow {
     position: absolute;
     color: #FFFFFF;
     background: #ff6663;
@@ -1841,8 +1841,9 @@ offer page style start from here
     align-items: start;
     justify-content: center;
     gap: 20px;
+    height: 100%;
 }
-.Discount .Dleftside{flex: 1 0 auto;width: 50%;background: #21033a;text-align: center;color: white;border-radius: 5px;padding: 20px 0 0 0;}
+.Discount .Dleftside{flex: 1 0 auto;width: 50%;background: #eae8ffb8;text-align: center;color: black;border-radius: 5px;padding: 20px 0 0 0;}
 .Discount .Dleftside .fromTo{
     display: flex;
     align-items: center;
@@ -1861,6 +1862,7 @@ offer page style start from here
 /* .Discount .Dleftside .fromTo li img{} */
 .Discount .Dleftside h3{
     font-size: 40px;
+    color: #ff6663;
 }
 .Discount .Dleftside .amount{
     display: flex;
@@ -1919,7 +1921,7 @@ offer page style start from here
     transform: scale(1);
 }
 .Discount .Dleftside .amount>div:last-child {
-    border: 1px dashed;
+    border: 1px dashed #ff6663;
     padding: 5px;
 }
 .Discount .Dleftside h3 sup{
@@ -1930,18 +1932,21 @@ offer page style start from here
     font-size: 16px;
     padding-bottom: 10px;
     display: inline-block;
+    color: #ff6663;
 }
 .Discount .Dleftside >h1{
     /* padding: 20px 0; */
     /* border-top: 1px solid #735e859e; */
     font-size: 16px;
     /* margin: 0 28px; */
-    background: gray;
+    background: #ff6663;
     /* display: inline-block; */
+    color: white;
+    padding: 5px 0;
 }
 .Discount .Dleftside >h5 {
     font-size: 16px;
-    background: gray;
+    background: white;
     padding: 13px 0 20px 0;
     margin: 0;
     line-height: .2;
@@ -1949,8 +1954,8 @@ offer page style start from here
 }
 /* .Discount .Dleftside samp {} */
 .Drightside{
-    color: white;
-    background: #21033a;
+    color: black;
+    background: #c2d1f1;
     padding: 20px 0;
     text-align: center;
     border-radius: 5px;
@@ -1959,6 +1964,7 @@ offer page style start from here
 .Drightside .callEx> li{
     font-size: 16px;
     font-weight: 600;
+    color: #ff6663;
 }
 .Drightside .callEx>ul{
     display: flex;
@@ -2087,7 +2093,7 @@ offer page style end here
 
 /*
 *******************************************************************
-Multicity page style end here 
+Multicity page style start here 
 *******************************************************************
 */
 #dublicate{
@@ -2097,11 +2103,12 @@ Multicity page style end here
 #dublicate>li>div{
     display: flex;
     gap: 10px;
+    width: 100%;
 }
 #dublicate>li>div>p:first-child {
     margin-left: 5px;
 }
-#dublicate>li>div>p {flex: 1 0 auto;width: 26%;}
+#dublicate>li>div>p {flex: 1 0 auto;width: 23%;}
 #dublicate>li>div>p>input {
     border: 1px solid #FF6663;
     padding: 5px 0 5px 10px;
@@ -2116,6 +2123,9 @@ Multicity page style end here
     none;
     margin-left: 5px;
     cursor: pointer;
+    position: absolute;
+    top: 7px;
+    right: -26px;
 }
 section.banner form >p {
     margin-left: 16px;
@@ -2130,7 +2140,7 @@ section.banner form>a {
 ol#dublicate {
     list-style: none;
     counter-reset: my-awesome-counter;
-    margin:15px 0;
+    margin-top: 30px;
     max-width: 100%;
   }
   ol#dublicate li {
@@ -2138,12 +2148,14 @@ ol#dublicate {
     display: flex;
     align-items: center;
     max-width: 100%;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+    position: relative;
   }
   ol#dublicate li::before {
     content: counter(my-awesome-counter) ". ";
     color: red;
     font-weight: bold;
+    align-self: flex-start;
   }
   .emailandname {
     display: flex;
@@ -2290,6 +2302,1031 @@ ol#dublicate {
 Multicity page style end here 
 *******************************************************************
 */
+/*
+*******************************************************************
+Top Airline Deals page style start here 
+*******************************************************************
+*/
+.topAirlineDealsBanner.bread{
+    background: url(img/flightbanner1.jpg) center no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 50px 0;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .95;
+    color: #ff6663;
+}
+.slick-dots li.slick-active {
+    width: 30px;
+}
+.slick-dots li {
+    margin: 0 2px;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .95;
+    width: 30px;
+    transition: all .4s;
+}
+.slick-dots li button:before {
+    background: #ff6663;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    content: '';
+    opacity: .5;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .95;
+    width: 30px;
+    color: #ff6663;
+    border-radius: 10px;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .95;
+    color: #ff6663;
+}
+.bread nav ol{
+    margin-top: 20px;
+}
+.bread nav ol li.breadcrumb-item {
+    font-size: 20px;
+    color: black;
+}
+.bread nav ol li.breadcrumb-item a {
+    font-size: 20px;
+    color: #ff6663;
+}
+.topAirlineDealsBanner h1 {
+    padding: 58px 0 10px 0;
+}
+ .topDealSlider .slideContent{
+    background: #eae8ff85;
+    margin: 15px 15px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 4px #0000001f;
+}
+.topDealSlider  .next_arow {
+    left: 0;
+  }
+  
+  .topDealSlider  .prev_arow {
+    right: 0;
+  }
+  
+  .topDealSlider  .next_arow, .topDealSlider  .prev_arow {
+    position: absolute;
+    color: #FFFFFF;
+    background: #ff6663;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 11;
+  }
+ .topDealSlider .slideContent a{
+    display:block;
+}
+ .topDealSlider>.slideContent a img.img-fluid{
+    width: 50px;
+}
+.topDealSlider .slick-slide img {
+    display: block;
+    width: auto;
+    object-fit: cover;
+    height: 40px;
+    margin: auto;
+}
+.topAirlineDealsBanner .slideContent>p{
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 10px 0;
+    text-align: center;
+    color: black;
+}
+.specialairlinedeals .boxwraper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.specialairlinedeals .boxwraper a.box:hover {
+    color: unset;
+    text-decoration: none;
+    box-shadow: inset 3px 3px 7px #00000012, inset -3px -3px 7px #00000012;
+}
+.specialairlinedeals .boxwraper a.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 10px;
+    box-shadow: 0 0 10px 2px #00000021;
+    border-radius: 5px;
+    transition: all .5s;
+    flex: 1 0 auto;
+    max-width: 33.33%;
+    width: 30%;
+}
+.specialairlinedeals .boxwraper a.box>h4{
+    padding: 10px 0;
+}
+.specialairlinedeals .boxwraper a.box>p{
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    padding-bottom: 22px;
+}
+/*
+*******************************************************************
+Top Airline Deals page style end here 
+*******************************************************************
+*/
+/*
+*******************************************************************
+Cheap Flight Tickets page style start here 
+*******************************************************************
+*/
+
+.cheapFlightTicketBanner .col-lg-6{
+    margin: 30px 0;
+}
+.bannerSection .col-lg-6 >div{
+    background: #eae8ff;
+    padding: 40px 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px 2px #00000021;
+    /* box-shadow: 0 0 10px 5px #0000001a; */
+}
+.mcform  div ul{
+    justify-content: center;
+    border: none;
+    display: inline-flex;
+    /* width: auto; */
+    background: #ff6663;
+    text-align: center;
+    padding: 10px;
+    border-radius: 24px;
+    opacity: 1;
+}
+.mcform  div .nav-tabs a.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 16px;
+    margin: 0 2px;
+    transition: all .4s;
+}
+.mcform  div  .nav-tabs a.nav-link.active,
+.mcform  div  .nav-tabs a.nav-link:hover {
+    color:#000;
+    background: white;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>h4>span{
+    color: black;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>span{
+    color: black;
+    font-size: 14px;
+    border: 1px dashed black;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px 0;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>.line::after{
+    left:0;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>.line::before{
+    right:0;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>.line::after,
+.cheapFlightTicketBanner .col-lg-6 >div>.line::before {
+    content: "";
+    position: absolute;
+    width: 47%;
+    height: 2px;
+    background: #ff6663;
+    top: 50%;
+    z-index: -1;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>.line{
+    position: relative;
+    z-index: 2;
+    color: black;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>h5{
+    margin-bottom: 15px;
+    color: black;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>h4{
+    text-transform: capitalize;
+    font-size: 25px;
+    width: 79%;
+    margin: auto;
+    color: green;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+/* .cheapFlightTicketBanner .col-lg-6 >div>.tab-content{} */
+/* .cheapFlightTicketBanner .col-lg-6 >div>.tab-content form>p{} */
+.bannerSection .col-lg-6 >div>.tab-content form{
+    text-align: left;
+    transform: translateX(-13px);
+}
+.bannerSection .col-lg-6 >div>.tab-content form .date{width: 100%;}
+.bannerSection .col-lg-6 >div>.tab-content form .btn-bottom{padding: 24px 40px 12px;}
+.bannerSection .col-lg-6 >div>.tab-content form .ClsPger{width: 100%;}
+.bannerSection .col-lg-6 >div>.tab-content form .formIconTo{width: 100%;}
+.bannerSection .col-lg-6 >div>h1{
+    padding: 0px;
+    color: #ff6663;
+    font-weight: 500;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 0px;
+    color: black;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>.maindiv{
+    background: #eae8ff;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 0 10px 4px #0000000d;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.cover{
+    width: 50%;
+    background: transparent;
+    position: absolute;
+    top: -29px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    color: #ff6663;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px #0000002e;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.cover>h4{
+    font-weight: 700;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.cover>p{
+    color: black;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.subdiv{
+    margin-top: 60px;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.subdiv>p{
+    font-size: 17px;
+    color: black;
+    padding: 10px;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.subdiv>div{
+    justify-content: center;
+    align-items: center;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.subdiv>div>strong{
+    font-size: 45px;
+    color: #ff6663;
+    font-weight: 900;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.subdiv>div>strong>sup{color: black;}
+.cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.subdiv>div>p{
+    text-align: left;
+    margin-left: 25px;
+    color: black;
+}
+.cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.subdiv>div>p>del{
+    color: #ff6663;
+    font-size: 25px;
+    font-weight: 900;
+}
+section.whycall.cheapFlightPage {
+    margin-top: 40px;
+}
+.block-wrapper{
+    margin: 40px 0;
+}
+.block-wrapper h2{
+    margin: 0;
+}
+.block-wrapper div p{
+    font-size: 17px;
+    color: black;
+}
+.block-wrapper div>h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #ff6663;
+}
+/* .block-wrapper .row> div{} */
+.block-wrapper .row> div>a{
+    font-size: 20px;
+    color: #056839;
+    padding: 4px 0;
+}
+.block-wrapper.blog .row>div> a.btn.btn-secondary{
+    font-size: 14px;
+    font-weight: 600;
+    color:#ff6663;
+    padding:7px 12px;
+}
+.block-wrapper.blog .row>div> a.btn.btn-secondary:hover{
+    color:#fff;
+}
+/* .block-wrapper .row> div>a>span{} */
+/*
+*******************************************************************
+Cheap Flight Tickets page style end here 
+*******************************************************************
+*/
+/*
+*******************************************************************
+Group Travel  page style end here 
+*******************************************************************
+*/
+.groupTravelBanner .col-lg-6>div>h6 {
+    color: black;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+.groupTravelBanner .col-lg-6>div.gtleftsite {
+    background: url(img/travel1.jpg) center no-repeat;
+    background-size: cover;
+    height:480px;
+    position: relative;
+}
+.groupTravelBanner .col-lg-6>div.gtleftsite .lerttext{
+    position:
+    absolute;
+    bottom: 0;
+    left: 0;
+    background: #00000091;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+.groupTravelBanner .col-lg-6>div.gtleftsite .lerttext h4{
+    text-align: center;
+    color: #ff6663;
+}
+/*
+*******************************************************************
+Group Travel  page style end here 
+*******************************************************************
+*/
+
+
+.filterItem1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.filterItem1 .item-wrap{
+    flex: 1 0 305px;
+    /* max-width: 50%; */
+    background: #ffffff;
+    /* width: 40%; */
+    border-radius: 5px;
+    /* border: 1px solid #ff6663; */
+    box-shadow: 0 0 10px 2px #00000021;
+}
+.filterItem1 .item-wrap .slide-item{
+    display: block;
+    width: 100%;
+    text-decoration: none !important;
+    padding: 20px 10px;
+}
+.filterItem1 .item-wrap .slide-item >div{
+    text-align: center;
+}
+.filterItem1 .item-wrap .slide-item >div>img {
+    width: 80px !important;
+    margin: unset !important;
+}
+.filterItem1 .item-wrap .slide-item .main{
+    display: flex;
+    margin: 15px 0 0 0;
+    justify-content: space-between;
+}
+.filterItem1 .item-wrap .slide-item .main .leftsite{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+}
+.filterItem1 .item-wrap .slide-item .main .leftsite li{flex-grow: 0;flex-basis: auto;max-width: 80px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.filterItem1 .item-wrap .slide-item .main .leftsite li>span{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.filterItem1 .item-wrap .slide-item .main .leftsite li>img{
+    width: 30px;
+}
+
+.filterItem1 .item-wrap .slide-item .main .rightsite h3{
+    margin: 0;
+    color: #ff6663;
+    font-weight: 700;
+}
+.filterItem1 .item-wrap .slide-item .main .rightsite p{
+    margin: 0;
+    color: black;
+}
+.filterItem1 .item-wrap .slide-item h6{
+    text-align: center;
+    color: black;
+}
+
+.flightDeals  h1.header-title{
+    margin-bottom: 0;
+}
+.filterLocation  h4{
+    text-align: center;
+    padding-top: 14px;
+}
+.filterLocation p{
+    text-align: center;
+}
+section.flightDeals.flight {
+    box-shadow: 0 -10px 10px 2px #0000001c;
+}
+
+section.flightDeals.flight1 {
+    box-shadow: 0 10px 10px 2px #0000001c;
+}
+
+
+
+
+
+
+
+.flight-banner {
+    background: url(img/flightbanner.jpg) center no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 30px 0;
+}
+.flight-banner .col-lg-6>div.text-center {
+    background: #eae8ff7d;
+}
+
+
+
+/*
+*******************************************************************
+how to book  page style start here 
+*******************************************************************
+*/
+/* .howItworks{} */
+.howItworks .box-wraper {
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.howItworks .box-wraper .box.box-middle {
+    transition: all .5s;
+    margin-left: 20%;
+}
+.howItworks .box-wraper .box.box-middle:hover {
+    transform: translateX(-30px);
+}
+.howItworks .box-wraper .box:hover {
+    transform: translateX(30px);
+}
+.howItworks .box-wraper .box {
+    flex: 1 0 80%;
+    background: #eae8ff;
+    border-radius: 5px;
+    padding: 20px;
+    z-index: 1;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all .5s;
+    max-width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.howItworks .box-wraper .box img{
+    width: 200px;
+}
+.howItworks .box-wraper .box div{text-align: left;}
+.howItworks .box-wraper .box div:last-child{
+    
+width: 55%;
+}
+.howItworks .box-wraper .box h3{
+    position: absolute;
+    color: #0000001f;
+    font-size: 7rem;
+    z-index: -1;
+    left: 30%;
+    bottom: 0;
+}
+.howItworks .box-wraper .box h2{
+    font-size: 19px;
+    color: #ff6663;
+    font-weight: 700;
+    margin: 0;
+    padding: 10px 0;
+}
+.howItworks .box-wraper .box p{
+    color: black;
+    font-size: 15px;
+}
+.howItworks .box-wraper .box p a{
+    display: inline-block;
+    margin: 0 6px;
+}
+.howItworks .box-wraper .box p button{
+    color: slategray;
+}
+/* .howItworks .header-title{} */
+
+.callNumber {
+    padding: 100px 0;
+    margin: 50px 0;
+    box-shadow: 0 0px 21px 12px #00000026;
+}
+.callNumber p{
+    color: black;
+    font-size: 15px;
+}
+.callNumber h1>a:hover{
+    background: #80808030;
+}
+.callNumber h1>a{
+    font-size: 40px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ff6663;
+    transition: all .5s;
+}
+.callNumber a{
+    color: black;
+    font-size: 18px;
+    border-bottom: 2px dashed #ff6663;
+    text-decoration: none;
+}
+/* .verticalform{}
+.verticalform .tab-content{} */
+.verticalform .tab-content form {
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    /* gap: 4px; */
+    padding: 40px 0;
+}
+.verticalform .tab-content form .formIconTo1{
+    gap: 4px;
+    /* flex: 1 0 auto; */
+    /* width: 35%; */
+}
+.verticalform .tab-content form>div li:nth-child(2){
+    max-width: 40px;
+}
+.verticalform .tab-content form>div button {
+    padding: 12px 10px;
+}
+.verticalform .tab-content form>div li#passengerli input{
+    padding-left: 10px;
+}
+.verticalform .tab-content form>div li#passengerli{
+    position: relative;
+}
+.verticalform .tab-content form>div li{
+    flex: 1 0 15%;
+    max-width: 16%;
+}
+.verticalform .tab-content form>div li input {
+    padding: 8px 0 8px 5px;
+    border: 1px solid #ff6663;
+    outline: none;
+    border-radius: 4px;
+    background: transparent;
+    max-width: 100%;
+    width: 100%;
+}
+.verticalform .tab-content form>div {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+    width: 100%;
+    max-width: 100%;
+}
+.verticalform .tab-content form>.date1 li{
+    width: 15%;
+}
+.verticalform .tab-content form>.date1{
+    gap: 4px;
+    flex: 1 0 auto;
+    width: 65%;
+}
+/* .verticalform .tab-content form>.date1 input{} */
+.classAndPassenger>div{
+    gap: 4px;
+    display: flex;
+}
+.classAndPassenger{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 670px;
+    background: white;
+    z-index: 2;
+    padding: 20px 10px;
+    border-radius: 5px;
+    display: none;
+}
+.classAndPassenger>div >div{
+    flex: 1 0 auto;
+    text-align: center;
+    gap: 2px;
+}
+span.total {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 900;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.classAndPassenger>div >div:last-child{
+    text-align: left;
+}
+.classAndPassenger>div >div >span{
+    padding-bottom: 6px;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.classAndPassenger:after {
+    content: "";
+    position: absolute;
+    border-bottom: 20px solid #ff000000;
+    border-left: 20px solid #eae8ff00;
+    border-right: 20px solid white;
+    bottom: 89%;
+    right: 10%;
+    transform: rotate(-45deg);
+}
+/* .classAndPassenger>div >div >input{} */
+.classAndPassenger>div >div >.btnsubadd{
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 7px;
+    justify-content: center;
+    gap: 0px;
+}
+.classAndPassenger>div >div >.btnsubadd>span.disable{
+    cursor: default;
+    background: #bdbdbd;
+    pointer-events: none;
+}
+.classAndPassenger>div >div >.btnsubadd>span{
+    padding: 2px 12px;
+    font-size: 18px;
+    background: #eae8ff;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin: 0 !important;
+}
+.classAndPassenger>div >div >.btnsubadd>span:nth-child(1){
+    cursor: pointer;
+}
+/* .classAndPassenger>div >div >.btnsubadd>span:nth-child(2){} */
+.classAndPassenger>div >div >.btnsubadd>span:nth-child(3){
+    cursor: pointer;
+}
+/*
+*******************************************************************
+how to book  page style end here 
+*******************************************************************
+*/
+/*
+*******************************************************************
+About Us  page style start here 
+*******************************************************************
+*/
+.aboutBanner{
+    padding: 50px 0;
+}
+.aboutBanner h1{
+    color: #ff6663;
+}
+.aboutBanner p{
+    width: 60%;
+    margin: 20px auto;
+}
+.aboutBanner .airlineAgency{
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+.aboutBanner .airlineAgency a{
+    width: 12%;
+    text-align: center;
+}
+.aboutBanner .airlineAgency a img{
+    display: block;
+    margin: auto;
+    width: 90px;
+}
+.aboutBanner .airlineAgency a span{
+    padding-top: 20px;
+    display: inline-block;
+}
+.aboutBanner .video{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
+    margin-top: 30px;
+    }
+.aboutBanner .video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:70%;
+    }
+
+.service{}
+.service .header-title{
+    padding-top: 0;
+    margin-top: -130px;
+    font-size: 30px;
+    margin-bottom: 39px;
+    color: #ff6663;
+}
+.service .serviceImg::before{
+    top: -13%;
+    right: -8%;
+}
+.service .serviceImg::after {
+    top: 32%;
+    left: -8%;
+}
+.service .serviceImg::before,
+.service .serviceImg::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border: 3px solid #ff6663;
+    z-index: -1;
+    border-radius: 5%;
+}
+.service .serviceImg {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+.service ul{
+    width: 65%;
+    padding-left: 30px;
+}
+.service ul li{
+    padding: 14px 0;
+    font-size: 15px;
+    color: black;
+    border-bottom: 1px solid #ff6663;
+}
+.service .serviceImg>img{
+    width:100%;
+    border-radius: 5px;
+}
+.team{}
+.team p{
+    text-align: center;
+    width: 70% !important;
+}
+.team .teamImage-wraper{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding: 30px 0;
+    align-items: center;
+}
+.team .teamImage-wraper>div{
+    flex: 1 0 auto;
+    width: 18%;
+}
+.team .teamImage-wraper>div>img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 23px 4px #00000017;
+}
+.team .teamImage-wraper>div>h5{
+    margin-top: 20px;
+    color: black;
+    font-weight: 900;
+}
+.team .teamImage-wraper>div>h5>span{
+    display: inline-block;
+    padding-top: 9px;
+    font-weight: 400;
+}
+.team .header-title{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    color: #ff6663;
+}
+.customer{
+    padding: 40px 0;
+    text-align: center;
+}
+.customer .row>div>div{
+    box-shadow: 0 0 10px 3px #00000021;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+.customer .row>div>div>p{
+    color: #ff6663;
+    font-size: 14px;
+}
+.customer .row>div>div>h2{
+    margin: 0;
+    color: black;
+    font-size: 40px;
+}
+.onlineAgencies{
+    margin: 30px 0;
+}
+.onlineAgencies .header-title{
+    font-weight: 600;
+    font-size: 30px;
+    color: #ff6663;
+}
+.onlineAgencies .service-box-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.onlineAgencies .service-box-wraper>div{
+    flex: 1 0 265px;
+    padding: 25px;
+    box-shadow: 0 0 10px 2px #0000001a;
+    border-radius: 5px;
+}
+.onlineAgencies .service-box-wraper img{
+    width: 88px;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto 20px;
+}
+.onlineAgencies .service-box-wraper h4{
+    font-size: 20px;
+    color: #ff6663;
+    font-weight: 400;
+}
+.onlineAgencies .service-box-wraper p{}
+/*
+*******************************************************************
+About Us  page style end here 
+*******************************************************************
+*/
+/*
+*******************************************************************
+Single Airline page style start here 
+*******************************************************************
+*/
+.singleBanner .col-lg-7 div ul.nav-tabs {
+    justify-content: center;
+    border: none;
+    display: inline-flex;
+    background: #ff6663;
+    text-align: center;
+    padding: 10px;
+    border-radius: 24px 24px 0 0;
+    opacity: 1;
+}
+.singleBanner .col-lg-7 div .nav-tabs a.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 16px;
+    margin: 0 2px;
+    transition: all .4s;
+}
+.singleBanner .col-lg-7>h3 {
+    padding: 50px 0;
+    color: white;
+}
+.singleBanner .maincontent .leftArea ul li.active,.singleBanner .maincontent .leftArea ul li:hover{
+    background: white;
+    color: #ff6663;
+    text-align: center;
+}
+.singleBanner .col-lg-7  .nav-tabs a.nav-link.active, .singleBanner .col-lg-7  .nav-tabs a.nav-link:hover {
+    color: #000;
+    background: white;
+}
+section.singleBanner.bread.banner nav ol {
+    margin: 0;
+    padding: 0;
+}
+section.singleBanner.bread.banner nav ol li.breadcrumb-item a {
+    font-size: 15px;
+    color: #ffffff;
+}
+.singleBanner{
+    background: url(img/flightbanner1.jpg) center no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 30px 0;
+}
+.banner .col-lg-5>div {
+    background: #eae8ffbd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px #00000021;
+}
+.singleBanner .date, .singleBanner .ClsPger {
+    column-gap: 15.33px;
+}
+.singleBanner .maincontent{
+    display: flex;
+}
+.singleBanner .maincontent .leftArea{
+    background: #ff6663;
+    color: white;
+    height: auto;
+    align-self: flex-start;
+}
+.singleBanner .maincontent .leftArea ul{}
+.singleBanner .maincontent .leftArea ul li{
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: all .5s;
+    cursor: pointer;
+}
+.singleBanner .maincontent .tab-content{
+    background: #eae8ffbd;
+    flex: 1;
+    border-radius: 5px;
+}
+.singleBanner .maincontent .tab-content .areaWraper{
+    display: flex;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.singleBanner .maincontent .tab-content .areaWraper .aitem{
+    display: flex;
+    flex: 1 0 45%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 3px #00000026;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background: #ffffff;
+    max-width: 50%;
+    text-decoration: none;
+}
+.singleBanner .maincontent .tab-content .areaWraper .aitem span:first-child{
+    color: black;
+    font-weight: 400;
+}
+.singleBanner .maincontent .tab-content .areaWraper .aitem span{
+    font-size: 20px;
+    color: #ff6663;
+    font-weight: 700;
+}
+/*
+*******************************************************************
+Single Airline page style end here 
+*******************************************************************
+*/
+
+
+
+
 .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel] {
     margin-left: 0;
     max-width: 100%;
@@ -2395,6 +3432,19 @@ nav .main-nav__list .nav-item:hover > a {
     .lowest {
         width: 60%;
     }
+    .verticalform .tab-content form .formIconTo1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .verticalform .tab-content form>div li:nth-child(1),
+    .verticalform .tab-content form>div li:nth-child(3){
+        flex: 1 0 45%;
+        max-width: 50%;
+    }
+    .verticalform .tab-content form>div li {
+        flex: 1 0 15%;
+        max-width: 28%;
+    }
     .shownumber {
         width: 35%;
     }
@@ -2417,13 +3467,51 @@ nav .main-nav__list .nav-item:hover > a {
     
  .filterLocation .btnlist::-webkit-scrollbar{border-radius: 2px;height: 5px;}
 .filterLocation .btnlist::-webkit-scrollbar-track{background: rgb(204, 204, 204);}
-.filterLocation .btnlist::-webkit-scrollbar-thumb{width: 4px;background: rgb(7, 116, 159);border-radius: 2px;}
+.filterLocation .btnlist::-webkit-scrollbar-thumb{width: 4px;background:#ff6663;border-radius: 2px;}
 .filterLocation .btnlist::-webkit-scrollbar-thumb:hover{background: rgb(15, 15, 15);}
 }
   
 @media(max-width:991px){
+    .team .header-title {
+        padding-top: 0;
+        margin-top: -28px;
+    }
+    .customer .col-md-3.col-sm-4 {
+        width: 33.33%;
+    }
+    .team p {
+        width: 100% !important;
+    }
+    .service ul {
+        width: 100%;
+    }
     nav .main-nav__list .nav-item .dropdown-menu>.memutitle>a>i {
         display: none;
+    }
+    .classAndPassenger {
+        right: -140px;
+        z-index: 18;
+    }
+    .aboutBanner p {
+        width: 90%;
+    }
+    .aboutBanner .airlineAgency a {
+        width: 20%;
+    }
+    .classAndPassenger:after {
+        right: 35%;
+    }
+    .verticalform .tab-content form {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 40px 0;
+        flex-direction: column;
+    }
+    .verticalform .tab-content form .formIconTo1 {
+        width: 100%;
+    }
+    .verticalform .tab-content form>.date1 {
+        width: 100%;
     }
     img.secmain-img.img-fluid {
         height: auto !important;
@@ -2700,6 +3788,22 @@ nav .main-nav__list .nav-link {
         width: auto;
         height: 170px;
     }
+    .team .teamImage-wraper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team .teamImage-wraper>div {
+        width: 26%;
+        max-width: 33%;
+    }
+    .service ul {
+        width: 70%;
+        margin: 20px auto;
+    }
+    .verticalform .tab-content form {
+        transform: translateX(0) !important;
+        background: transparent;
+    }
     .lowest .lleftside h5 {
         padding: 10px 0;
         font-size: 18px;
@@ -2787,6 +3891,10 @@ nav .main-nav__list .nav-link {
     .bestEmail form{
         width: 65%;
     }
+    .specialairlinedeals .boxwraper a.box {
+        max-width: 50%;
+        width: 46%;
+    }
 }
 @media(max-width:710px){
     .intro__search form .formcontent .col:nth-child(2) {
@@ -2794,7 +3902,32 @@ nav .main-nav__list .nav-link {
         width: 100%;
         margin: 15px 0; 
     }
-  
+    .fixCallAnimation {
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        display: block;
+        z-index: 220;
+        cursor: pointer;
+        display: none !important;
+    }
+    .aboutBanner .airlineAgency a {
+        width: 25%;
+    }
+    .classAndPassenger {
+        transform: translate(50%);
+        right: 50%;
+        width: 300px;
+    }
+    .classAndPassenger>div {
+        gap: 4px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .verticalform .tab-content form>div li {
+        flex: 1 0 50%;
+        max-width: 49%;
+    }
     .intro__search form .formcontent .col:nth-child(1) {
         align-items: center;
         width: 100%;
@@ -2815,6 +3948,16 @@ nav .main-nav__list .nav-link {
     form .formcontent .passenger {
         padding: 7px 5px;
     }
+    .customer .col-md-3.col-sm-4 {
+        width: 39.33% !important;
+        padding: 0;
+    }
+    .customer .row.justify-content-center {
+        gap: 30px;
+    }
+    .aboutBanner h1 {
+        font-size: 24px;
+    }
     .todayDeals {
     margin: 40px 0;
 }
@@ -2824,6 +3967,7 @@ nav .main-nav__list .nav-link {
 .bestEmail form{
     width: 75%;
 }
+
 }
 @media(max-width:596px){
     .phoneArea .picon img {
@@ -2856,12 +4000,52 @@ nav .main-nav__list .nav-link {
     }
 }
 @media(max-width:575px){
+    .verticalform .tab-content form>div li:nth-child(1), .verticalform .tab-content form>div li:nth-child(3) {
+        flex: 1 0 42%;
+        max-width: 50%;
+    }
+    .customer .col-md-3.col-sm-4 {
+        width: 45.33% !important;
+        padding: 0;
+        max-width: 45% !important;
+    }
+    .aboutBanner .video {
+        width: 90%;
+    }
+    .aboutBanner .video iframe {
+        height: 80%;
+    }
+    .service .header-title {
+        margin-top: -81px;
+    }
+    .howItworks .box-wraper .box{
+        max-width: 100%;
+        flex: 1 0 100%;
+    }
+    .howItworks .box-wraper .box.box-middle {
+        transition: all .5s;
+        margin-left:0%;
+    }
+    .howItworks .box-wraper .box:hover {
+        transform: translateX(0px);
+    }
+    .howItworks .box-wraper .box.box-middle:hover {
+        transform: translateX(0px);
+    }
+    span.total {
+        font-size: 15px;
+    }
     .intro__search form .formcontent .col ul {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         /* margin-bottom: 15px; */
         justify-content: center;
+    }
+    .filterLocation .btnlist>li {
+        font-size: 13px;
+        padding: 6px 7px;
+        border: 1px solid #ff6663;
     }
     .panel-fixed{
         height: 69px !important;
@@ -2906,11 +4090,24 @@ nav .main-nav__list .nav-link {
     }
 }
 @media(max-width:492px){
+    .aboutBanner .airlineAgency {
+        flex-wrap: wrap;
+    }
+    .singleBanner .maincontent .tab-content .areaWraper .aitem {
+        flex: 1 0 78%;
+        max-width: 100%;
+    }
+    .aboutBanner .airlineAgency a {
+        flex: 1 0 40%;
+    }
     .top-div .wrap p {
         font-size: 9px;
     }
     .search {
         display: none;
+    }
+    .aboutBanner h1 {
+        font-size: 17px;
     }
     .flagarea {
         padding: 0 10px;
@@ -2928,9 +4125,37 @@ nav .main-nav__list .nav-link {
         padding: 10px 16px;
 
     }
+    #dublicate>li>div {
+        gap: 3px;
+    }
+    .emailandname {
+        gap: 5px;
+    }
+    .emailandname li {
+        flex: 1 0 auto;
+        max-width: 49%;
+    }
 }
 
 @media(max-width:450px){
+    .specialairlinedeals .boxwraper a.box {
+        max-width: 100%;
+        width: 90%;
+    }
+    .onlineAgencies .header-title {
+        font-size: 25px;
+        margin-top: -30px;
+    }
+    .service ul {
+        width: 85%;
+    }
+    .service .header-title {
+        margin-top: -57px;
+        font-size: 25px;
+    }
+    .classAndPassenger {
+        right: 27%;
+    }
     a.navbar-logo img {
         width: 100px;
     }
@@ -3001,6 +4226,11 @@ nav .main-nav__list .nav-link {
 @media(max-width:400px){
     .formcontent img {
         width: 17px !important;
+    }
+    .customer .col-md-3.col-sm-4 {
+        width: 99.33% !important;
+        padding: 0;
+        max-width: 90% !important;
     }
     .callOnli .row >div {
         width: 95%;

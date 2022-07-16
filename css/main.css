@@ -437,18 +437,18 @@
 	bottom: 8px;
 	right: 0px;
 	width: 40px;}
-  .btn-bottom{
+  .btn-bottom {
     display: flex;
     align-items: center;
-    justify-content:center;
-    padding: 40px 40px 96px;
+    justify-content: center;
+    padding: 40px 40px 29px;
 }
   .btn-bottom >div>a{
     border: 1px solid;
     margin-left: 10px;
 }
 .btn-bottom >button {
-  border: 1px solid;
+  border: 1px solid #ff6663;
   background: #ff6663;
   color: white;
   font-weight: 700;

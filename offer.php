@@ -92,8 +92,8 @@
                       <img src="img/pin.png" alt="" class="location" width="30">
                     </li>
                   </div> -->
-                  <div class="col-12 d-flex align-items-center justify-content-between">
-                    <button type="submit" class="btn btn-outline-primary">GET A FREE QUOTE</button>
+                  <div class="col-12 d-flex align-items-center justify-content-between my-3">
+                    <button type="submit" class="btn btn-primary">GET A FREE QUOTE</button>
                     <a href="#howItWorkModal" data-toggle="modal" >How it Works?</a>
                   </div>
                 </div>

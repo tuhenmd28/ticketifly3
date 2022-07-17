@@ -474,8 +474,16 @@
                     <a href="#">See All</a>
                   </ul>
                 </li>
+                <li class="nav-item dropdown"><a class="nav-link fw-bold text-uppercase" href="#"><span>About</span><i class="caret fa fa-angle-down ml-2"></i><img src="img/down.png" alt=""></a><ul class="dropdown-menu"><li class="nav-item"><a class="nav-link" href="index-2.html"><span>About Us</span></a></li><li class="nav-item"><a class="nav-link" href="index-account.html"><span>Reviews</span></a></li><li class="nav-item"><a class="nav-link" href="index-video.html"><span> Video</span></a></li><li class="nav-item"><a class="nav-link" href="index-video.html"><span> Customer Stories</span></a></li><li class="nav-item"><a class="nav-link" href="index-video.html"><span> Contact Us</span></a></li><li class="nav-item"><a class="nav-link" href="index-video.html"><span> Blog</span></a></li></ul></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link fw-bold text-uppercase" href="#">
+                    <span>How it works</span>
+                    <!-- <i class="caret fa fa-angle-down ml-2"></i> -->
+                    <img src="img/down.png" alt="">
+                  </a>
+                </li>
                 <!-- <li class="nav-item dropdown"><a class="nav-link fw-bold text-uppercase" href="#"><span>Support</span><i class="caret fa fa-angle-down ml-2"></i><img src="img/down.png" alt=""></a><ul class="dropdown-menu"><li class="nav-item"><a class="nav-link" href="index-2.html"><span>Customer Service</span></a></li><li class="nav-item"><a class="nav-link" href="index-account.html"><span>My Booking</span></a></li><li class="nav-item"><a class="nav-link" href="index-video.html"><span>FAQ</span></a></li></ul></li> -->
-                <!-- <li class="nav-item dropdown"><a class="nav-link fw-bold text-uppercase" href="#"><span>About</span><i class="caret fa fa-angle-down ml-2"></i><img src="img/down.png" alt=""></a><ul class="dropdown-menu"><li class="nav-item"><a class="nav-link" href="index-2.html"><span>About Us</span></a></li><li class="nav-item"><a class="nav-link" href="index-account.html"><span>Reviews</span></a></li><li class="nav-item"><a class="nav-link" href="index-video.html"><span> Video</span></a></li><li class="nav-item"><a class="nav-link" href="index-video.html"><span> Customer Stories</span></a></li><li class="nav-item"><a class="nav-link" href="index-video.html"><span> Contact Us</span></a></li><li class="nav-item"><a class="nav-link" href="index-video.html"><span> Blog</span></a></li></ul></li> -->
+             
               </ul>
               <div class="search d-lg-none">
                 <img src="./img/search.png" alt="">

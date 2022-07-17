@@ -2221,6 +2221,7 @@ ol#dublicate {
     font-size: 25px;
     font-weight: 700;
     color: #000000;
+    margin: 0;
     }
   .banner .col-lg-6>div>h3{
     color: #ff6663;
@@ -2287,14 +2288,16 @@ ol#dublicate {
     padding: 0 0 40px 30px;
     border-radius: 5px;
 }
-.list ul li{
+.list ul li {
     font-size: 20px;
-    padding: 5px 0;
+    padding: 7px 0;
+    display: flex;
+    column-gap: 10px;
 }
 .list ul li i{
-    color: r;
+    padding-top: 5px;
     color: #ff6663;
-    font-size: 20px;
+    font-size: 24px;
     padding-right: 7px;
 }
 /*
@@ -3318,6 +3321,84 @@ section.singleBanner.bread.banner nav ol li.breadcrumb-item a {
     color: #ff6663;
     font-weight: 700;
 }
+section.whycall.singleAirline {
+    margin-top: 50px;
+}
+section.whycall.singleAirline .container .callwrap .row .contentwrap .textarea {
+    width: 80%;
+}
+.list .col-12 ul p strong{
+    color:#ff6663;
+}
+.color{
+    color:#ff6663;
+}
+.list .col-12 ul p {
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+section.signinbanner {
+    display: flex;
+    height: auto;
+    background: url(img/singinbg2.webp) center no-repeat;
+    width: 100%;
+    background-size: cover;
+    min-height: calc(100vh - 106px );
+    align-items: center;
+    justify-content: center;
+}
+.formContent {
+    padding: 20px;
+    background: #ffffff8f;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.formContent h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #ff6663;
+}
+#singlemodel .row{
+    max-width: 100%;
+    transform: translate(16px);
+}
+#singlemodel .modal-dialog {
+    max-width: 55%;
+    margin: 1.75rem auto;
+}
+#singlemodel .modalleftsite{
+    padding: 30px 20px;
+}
+#singlemodel .modalleftsite h4{
+    font-size: 18px;
+    color: #ff6663;
+    margin: 0;
+}
+#singlemodel .modalleftsite h5{
+    color: #ff6663;
+    padding-top: 10px;
+}
+#singlemodel .modalleftsite span{
+    padding: 10px 8px;
+    display: block;
+}
+#singlemodel .modalleftsite hr{
+    background: #ff6663;
+    height: 2px;
+    opacity: 1;
+}
+#singlemodel .modalleftsite p{
+    color: black;
+}
+#singlemodel .modalleftsite ol li{
+    padding: 7px 0;
+    color: black;
+}
+#singlemodel .modalleftsite h6{
+    color: #ff6663;
+}
 /*
 *******************************************************************
 Single Airline page style end here 
@@ -3429,6 +3510,9 @@ nav .main-nav__list .nav-item:hover > a {
     form .formcontent .distination li {
         flex: 1;
     }
+    #singlemodel .modal-dialog {
+        max-width: 65%;
+    }
     .lowest {
         width: 60%;
     }
@@ -3475,6 +3559,9 @@ nav .main-nav__list .nav-item:hover > a {
     .team .header-title {
         padding-top: 0;
         margin-top: -28px;
+    }
+    #singlemodel .modal-dialog {
+        max-width: 75%;
     }
     .customer .col-md-3.col-sm-4 {
         width: 33.33%;
@@ -3787,6 +3874,12 @@ nav .main-nav__list .nav-link {
     .lowest .lleftside div img {
         width: auto;
         height: 170px;
+    }
+    #singlemodel .row {
+        transform: translate(13px);
+    }
+    #singlemodel .modal-content {
+        border-radius: 5px;
     }
     .team .teamImage-wraper {
         flex-wrap: wrap;
@@ -4141,6 +4234,9 @@ nav .main-nav__list .nav-link {
     .specialairlinedeals .boxwraper a.box {
         max-width: 100%;
         width: 90%;
+    }
+    #singlemodel .modal-dialog {
+        max-width: 95%;
     }
     .onlineAgencies .header-title {
         font-size: 25px;

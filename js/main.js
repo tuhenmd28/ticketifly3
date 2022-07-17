@@ -1,3 +1,18 @@
+// singleAirline page modal code
+
+let singleItem = $('.singleBanner .maincontent .tab-content .areaWraper .aitem');
+
+singleItem.each(function(){
+    $(this).click(function(){
+        let value = $(this).children()[1].innerHTML;
+        $('#singlemodel .modalleftsite h4 strong').text(value)
+        // console.log(value);
+    })
+})
+
+// singleAirline page modal code
+
+
 
 // single Airline page economy and business tabs start 
 

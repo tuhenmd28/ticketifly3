@@ -1,12 +1,12 @@
- <!-- commend section start from here --> 
- <section>
+<!-- commend section start from here --> 
+<section>
       <div class="recommend">
         <div class="container">
-          <div class="row align-items-center">
+          <div class="row">
             <div class="col-md-6 col-12 text-center mb-2 mb-md-0">
               <h4 class="">97% Of Travelers Recommend Ticketifly Tickets</h4>
             </div>
-            <div class="col-md-6 d-flex align-items-center justify-content-center col-12">
+            <div class="col-md-6 d-flex  justify-content-center col-12">
               <div class="star d-flex pr-2">
                 <span>
                   <img style="width:20px ;" src="img/7589102.png" alt="">
@@ -24,7 +24,7 @@
                   <img style="width:20px ;" src="img/7589102.png" alt="">
                 </span>
               </div>
-              <p>4.7 out of 5 Based on 416079 reviews</p>
+              <p class="m-0">4.7 out of 5 Based on 416079 reviews</p>
             </div>
           </div>
           <div class="sliders">
@@ -173,7 +173,7 @@
           </div>
         </div>
 </section> 
- <!-- conmmend section end here  -->
+    <!-- conmmend section end here  -->
 <section class="fixCallAnimation">
    <li> <img src="img/phone-call.png" alt=""> </li>
 </section>
@@ -187,8 +187,8 @@
             <h3 class="h3 text-uppercase">TICKETIFLY</h3>
             <ul class="page-footer__address">
                <li class="mb-2"> <strong class="float-left mr-1">A:</strong> 314-336 Bourke St, Melbourne VIC 3000, Australia  </li>
-               <li class="mb-2"> <strong class="float-left mr-1">P:</strong> 24/7 customer support:  <a href="tel:#">1-222-2222-22-22</a> </li>
-               <li class="mb-2"> <strong class="float-left mr-1">E:</strong> <a href="mailto:#">ticketifly@gmail.com</a> </li>
+               <li class="mb-2"> <strong class="float-left mr-1">P:</strong> 24/7 customer support:  <a href="tel:1-222-2222-22-22">1-222-2222-22-22</a> </li>
+               <li class="mb-2"> <strong class="float-left mr-1">E:</strong> <a href="mailto:ticketifly@gmail.com">ticketifly@gmail.com</a> </li>
             </ul>
             <h4 class="h4 mb-2">Follow us:</h4>
             <ul class="footer-social d-flex flex-wrap">
@@ -224,7 +224,7 @@
       <div class="container">
          <div class="hr"></div>
          TICKETIFKY All rights reserved.  <br /> 
-         <a class="text-light text-uppercase" href="https://themeforest.net/user/netgon">
+         <a class="text-light text-uppercase" href="https://www.rcreation-bd.com/">
             Developer by R-creation  <script>
                document.write(new Date().getFullYear());
             </script> 
@@ -408,90 +408,107 @@ flatpickr("#departure", {
         prevArrow: '  <span class="next_arow"> <i class="fas fa-chevron-left"></i> </span>',
         nextArrow: '  <span class="prev_arow "> <i class="fas fa-chevron-right"></i> </span>',
       });
-      // $(document).ready(function() {
-      //   $(".intro__search  form .formcontent .passenger li").click(function() {
-      //     $(".intro__search .passenger .addpsgerwraper").toggle(500);
-      //   })
-      //   $(".intro__search  button.ok.btn.btn-primary").click(function() {
-      //     $(".intro__search  .passenger .addpsgerwraper").hide(500);
-      //   })
-      // })
-      // let passenger = $(".intro__search .passenger .addpsgerwraper .passengerAdd span");
-      // let passenger1 = Number(passenger[0].textContent);
-      // let passenger2 = Number(passenger[1].textContent);
-      // let passenger3 = Number(passenger[2].textContent);
-      // // let passenger34 = Number(passenger[3].html());
-      // let sum = passenger1 + passenger2 + passenger3;
-      // let btn;
-      // let count;
-      // $(".intro__search form .formcontent .passenger .invisible").val(Number(sum.slice(0, 1)));
-      // // console.log(sum);
-      // function addition(e) {
-      //   btn = e;
-      //   count = Number(btn.previousElementSibling.textContent)
-      //   if (count <= 10) {
-      //     ++count;
-      //   }
-      //   btn.previousElementSibling.innerHTML = count;
-      //   passenger1 = Number(passenger[0].textContent);
-      //   passenger2 = Number(passenger[1].textContent);
-      //   passenger3 = Number(passenger[2].textContent);
-      //   // console.log(passenger1);    
-      //   sum = passenger1 + passenger2 + passenger3;
-      //   // console.log(sum);
-      //   if (sum == 1) {
-      //     sum = `${sum} passenger`;
-      //   } else {
-      //     sum = `${sum} passengers`;
-      //   }
-      //   $(".intro__search form .formcontent .passenger li samp").text(sum);
-      //   $(".intro__search form .formcontent .passenger .invisible").val(Number(sum.slice(0, 1)));
-      // }
+          
+      let subtractbtn1 = $('.classAndPassenger.classAndPassenger1>div >div >.btnsubadd>span:nth-child(1)');
+      let numbershowbtn1 = $(".classAndPassenger.classAndPassenger1>div >div >.btnsubadd>span:nth-child(2)");
+      let additionbtn1 = $(".classAndPassenger.classAndPassenger1>div >div >.btnsubadd>span:nth-child(3)");
+      function subtract1(){
+        subtractbtn1.each(function(){
+        $(this).click(function(){
+            let item = $(this);
+            let value = Number(item.next().text());
+            if(value >= 1){
+                value = value - 1;
+                item.next().text(value);
+            }
+            let totalvalue = maincunter1();
+            if(totalvalue <= 9){
+                $('.ClsPger li:first-child input ').val(totalvalue +" "+ 'Passengers' );
+                // let inputValue = Number(inputItem.val().slice(0,1));
+                // if(inputValue == 1){
+                //   inputValue + 1
+                // }
+                // console.log(inputValue);
+                // if(inputValue>1){
+                //   $('.ClsPger li:first-child input ').val(totalvalue +" "+ 'Passengers' );
+                // }else{
+                //   $('.ClsPger li:first-child input ').val(totalvalue +" "+ 'Passenger' );
+                // }
+              }
+            if(value <= 1 ){
+                item.addClass('disable')
+            }else{
+                item.removeClass('disable')
+            }
+            if(totalvalue >= 9){
+                additionbtn.addClass('disable')
+            }else{
+                additionbtn.removeClass('disable')
+            }
+            arr1 = [];
 
-      // function sumtract(e) {
-      //   btn = e;
-      //   count = Number(btn.nextElementSibling.textContent)
-      //   if (count >= 2) {
-      //     --count;
-      //   }
-      //   btn.nextElementSibling.innerHTML = count;
-      //   passenger1 = Number(passenger[0].textContent);
-      //   passenger2 = Number(passenger[1].textContent);
-      //   passenger3 = Number(passenger[2].textContent);
-      //   // console.log(passenger1);    
-      //   sum = passenger1 + passenger2 + passenger3;
-      //   // console.log(sum);
-      //   if (sum == 1) {
-      //     sum = `${sum} passenger`;
-      //   } else {
-      //     sum = `${sum} passengers`;
-      //   }
-      //   $(".intro__search form .formcontent .passenger li samp").text(sum);
-      //   $(".intro__search form .formcontent .passenger .invisible").val(Number(sum.slice(0, 1)));
-      // }
-
-      // function sumtract1(e) {
-      //   btn = e;
-      //   count = Number(btn.nextElementSibling.textContent)
-      //   if (count >= 1) {
-      //     --count;
-      //   }
-      //   btn.nextElementSibling.innerHTML = count;
-      //   passenger1 = Number(passenger[0].textContent);
-      //   passenger2 = Number(passenger[1].textContent);
-      //   passenger3 = Number(passenger[2].textContent);
-      //   // console.log(passenger1);    
-      //   sum = passenger1 + passenger2 + passenger3;
-      //   // console.log(sum);
-      //   if (sum == 1) {
-      //     sum = `${sum} passenger`;
-      //   } else {
-      //     sum = `${sum} passengers`;
-      //   }
-      //   $(".intro__search form .formcontent .passenger li samp").text(sum);
-      //   $(".intro__search form .formcontent .passenger .invisible").val(Number(sum.slice(0, 1)));
-      // }
-       
+        })
+    })
+    }
+    function addition1(){
+      additionbtn1.each(function(){
+          $(this).click(function(){
+              let item = $(this);
+              let value = Number(item.prev().text())
+              if(value<9){
+                  value = value + 1;
+                  item.prev().text(value);
+                let itemsubtract  = item.prev().prev();
+                  if(value < 1 ){
+                      itemsubtract.addClass('disable')
+                  }else{
+                      itemsubtract.removeClass('disable')
+                  }
+              }
+              let totalvalue = maincunter1();
+              if(totalvalue <= 9){
+                $('.ClsPger li:first-child input ').val(totalvalue +" "+ 'Passengers' );
+                // let inputValue = Number(inputItem.val().slice(0,1));
+                // if(inputValue == 1){
+                //   inputValue + 1
+                // }
+                // console.log(inputValue);
+                // if(inputValue>1){
+                //   $('.ClsPger li:first-child input ').val(totalvalue +" "+ 'Passengers' );
+                // }else{
+                //   $('.ClsPger li:first-child input ').val(totalvalue +" "+ 'Passenger' );
+                // }
+              }
+              if(totalvalue >= 9){
+                  additionbtn1.addClass('disable')
+              }else{
+                  additionbtn1.removeClass('disable')
+              }
+              arr1 = [];
+          })
+      })
+    }
+    subtract1();
+    addition1();  
+    let arr1 = [];
+    function maincunter1(){
+        numbershowbtn1.each(function(){
+        let numberItems = $(this);
+        let number = Number(numberItems.text())
+        arr1.push(number);
+    })
+        let sum = arr1.reduce(function(a,b){
+            return a + b;
+        })
+      return sum;
+    }
+    $('.ClsPger li:first-child input ').click(function(){
+    $('.classAndPassenger.classAndPassenger1').toggle(500);
+    })
+    $('.classAndPassenger.classAndPassenger1 span.btn.btn-primary.float-right.mt-3').click(function(){
+        $('.classAndPassenger.classAndPassenger1').hide(500);
+    })
+    let inputItem =$('.ClsPger li:first-child input ');
     </script> 
   </body> 
 </html>

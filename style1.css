@@ -2823,13 +2823,13 @@ how to book  page style start here
     padding: 20px;
     z-index: 1;
     position: relative;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     transition: all .5s;
     max-width: 80%;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
+    border: 1px solid #ff6663;
 }
 .howItworks .box-wraper .box img{
     width: 200px;
@@ -3407,7 +3407,6 @@ Single Airline page style end here
 
 
 
-
 .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel] {
     margin-left: 0;
     max-width: 100%;
@@ -3504,9 +3503,19 @@ nav .main-nav__list .nav-item:hover > a {
     background: #fffffffa;
     color: black !IMPORTANT;
 }
-
-
+.modal-backdrop {
+    z-index: 10;
+}
+a:hover {
+    text-decoration: none;
+}
 @media(max-width:1200px){
+    .verticalform .tab-content form .formIconTo1 {
+        row-gap: 15px;
+     }
+     .banner .col-lg-6>div>.row {
+        padding: 0px 0 10px 0;
+    }
     form .formcontent .distination li {
         flex: 1;
     }
@@ -3556,6 +3565,25 @@ nav .main-nav__list .nav-item:hover > a {
 }
   
 @media(max-width:991px){
+    
+    .howItworks .box-wraper .box img {
+        width: 170px;
+    }
+    .howItworks .box-wraper .box div:last-child {
+        width: 60%;
+    }
+    section.savemoney {
+        padding-top: 0;
+    }
+    .filterLocation {
+        padding: 0px 0 25px;
+    }
+    .addImg  img.img-fluid {
+        display: none;
+    }
+    .whycall .container>p {
+        font-size: 20px;
+    }
     .team .header-title {
         padding-top: 0;
         margin-top: -28px;
@@ -3871,9 +3899,27 @@ nav .main-nav__list .nav-link {
     }
 }
 @media(max-width:768px){
+    .callNumber {
+        padding: 50px 0;
+    }
+    .recommend {
+       margin: 0;
+    }
+    .howItworks .box-wraper .box img {
+        width: 150px;
+    }
+    .locationPic {
+        margin-top: 30px;
+    }
     .lowest .lleftside div img {
         width: auto;
         height: 170px;
+    }
+    button.btn-toggle.btn.btn-light.d-lg-none.btn-toggle-nav {
+        left: 10px;
+        top: 9px;
+        background: #f8f9fa !important;
+        border: none;
     }
     #singlemodel .row {
         transform: translate(13px);
@@ -3927,7 +3973,7 @@ nav .main-nav__list .nav-link {
         font-size: 12px;
     }
     section.whycall {
-        margin-top:0px;
+        margin-top:40px;
     }
     .top-div .wrap p {
         font-weight: 700;
@@ -4093,9 +4139,43 @@ nav .main-nav__list .nav-link {
     }
 }
 @media(max-width:575px){
+    .filterLocation h2 {
+        padding: 5px 0;
+        font-size: 25px;
+    }
+    .banner .col-lg-6>div>h1 {
+        font-size: 25px;
+        margin: 0;
+    }
+    .banner .col-lg-6>div>.row>.col>span {
+        font-size: 14px;
+    }
+    .header-title {
+        padding: 30px 0;
+        font-size: 20px;
+    }
     .verticalform .tab-content form>div li:nth-child(1), .verticalform .tab-content form>div li:nth-child(3) {
         flex: 1 0 42%;
         max-width: 50%;
+    }
+    .domain .grid a .todytext> p {
+        font-size: 12px;
+    }
+    .sidebararea h4 {
+        font-size: 18px;
+        text-align: center;
+        padding: 0;
+    }
+    .whycall .container .callwrap .row .contentwrap div img {
+        width: 40px;
+    }
+    .whycall .container .callwrap .row .contentwrap .textarea>p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .whycall .container .callwrap .row .contentwrap .textarea>h4 {
+        margin: 2px 0;
+        font-size: 13px;
     }
     .customer .col-md-3.col-sm-4 {
         width: 45.33% !important;
@@ -4186,6 +4266,12 @@ nav .main-nav__list .nav-link {
     .aboutBanner .airlineAgency {
         flex-wrap: wrap;
     }
+    .howItworks .box-wraper .box img {
+        width: 100px;
+    }
+    .howItworks .box-wraper .box div:last-child {
+        width: auto;
+    }
     .singleBanner .maincontent .tab-content .areaWraper .aitem {
         flex: 1 0 78%;
         max-width: 100%;
@@ -4234,6 +4320,18 @@ nav .main-nav__list .nav-link {
     .specialairlinedeals .boxwraper a.box {
         max-width: 100%;
         width: 90%;
+    }
+    .mcform  div .nav-tabs a.nav-link {
+        font-size: 12px;
+    }
+    .howItworks .box-wraper .box h2 {
+        font-size: 16px;
+    }
+    .howItworks .box-wraper .box p {
+        font-size: 13px;
+    }
+    .whycall .container .callwrap h3 {
+        font-size: 24px;
     }
     #singlemodel .modal-dialog {
         max-width: 95%;

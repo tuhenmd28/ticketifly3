@@ -1,3 +1,63 @@
+
+// location element filter 
+window.onload = load();
+window.onload = load1();
+window.onload = load2();
+function load(){
+    $('.filterLocation .btnlist>li').click(function(){
+        $(this).addClass('active');
+      let value =$(this).attr('data-filter');
+      let item = $('.filterLocation .filterItem .item-wrap');
+      console.log(value);
+        if(value == 'all'){
+            $('.filterLocation .filterItem .item-wrap').show(1000)
+        }else{
+            item.not('.'+value).hide(1000);
+            item.filter('.'+value).show(1000);
+        }
+        // class1 = item.attr('class').split(' ')[0];
+        $(this).siblings().removeClass('active')
+    
+        // console.log(jQuery('selector').attr('class').split(' ')[0]);
+    })
+}
+function load1(){
+    $('.flightDeals.flight .filterLocation .btnlist>li').click(function(){
+        $(this).addClass('active');
+      let value =$(this).attr('data-filter');
+      let item = $('.flightDeals.flight .filterLocation .filterItem1 .item-wrap');
+      console.log(value);
+        if(value == 'Las-Vegas'){
+            item.show(1000)
+        }else{
+            item.not('.'+value).hide(1000);
+            item.filter('.'+value).show(1000);
+        }
+        // class1 = item.attr('class').split(' ')[0];
+        $(this).siblings().removeClass('active')
+    
+        // console.log(jQuery('selector').attr('class').split(' ')[0]);
+    })
+}
+function load2(){
+    $('.flightDeals.flight1 .filterLocation .btnlist>li').click(function(){
+        $(this).addClass('active');
+      let value =$(this).attr('data-filter');
+      let item = $('.flightDeals.flight1 .filterLocation .filterItem1 .item-wrap');
+      console.log(value);
+        if(value == 'AtlantaToNewYork'){
+            item.show(1000)
+        }else{
+            item.not('.'+value).hide(1000);
+            item.filter('.'+value).show(1000);
+        }
+        // class1 = item.attr('class').split(' ')[0];
+        $(this).siblings().removeClass('active')
+    
+        // console.log(jQuery('selector').attr('class').split(' ')[0]);
+    })
+}
+
 // singleAirline page modal code
 
 let singleItem = $('.singleBanner .maincontent .tab-content .areaWraper .aitem');
@@ -61,19 +121,35 @@ tabs.each(function(){
 // }
 // single Airline page filter area start end
 
-
+// home page one way 
+$('.radiobtn ul li:nth-child(2)').click(function(){
+    $('.date li:last-child input#return').css({
+        "background": "gainsboro",
+        "pointer-events": "none",
+        "cursor": "default"
+    })
+})
+$('.radiobtn ul li:nth-child(1)').click(function(){
+    $('.date li:last-child input#return').css({
+        "background": "transparent",
+        "pointer-events": "all",
+        "cursor": "pointer"
+    })
+})
 
 
 // passenger counter start
 let subtractbtn = $('.classAndPassenger>div >div >.btnsubadd>span:nth-child(1)');
 let numbershowbtn = $(".classAndPassenger>div >div >.btnsubadd>span:nth-child(2)");
 let additionbtn = $(".classAndPassenger>div >div >.btnsubadd>span:nth-child(3)");
+
 $('li#passengerli>input ').click(function(){
     $('.classAndPassenger').toggle(500);
 })
 $('li#passengerli span.btn.btn-primary.float-right.mt-3').click(function(){
     $('.classAndPassenger').hide(500);
 })
+
 function subtract(){
     subtractbtn.each(function(){
         $(this).click(function(){
@@ -102,6 +178,7 @@ function subtract(){
         })
     })
 }
+
 let classvlaue = $("span.total").html().slice(2);
 // function classChange(){
     $("input[name=class]").change(function(){
@@ -142,8 +219,10 @@ function addition(){
 }
 subtract();
 addition();
+
 let arr = [];
 function maincunter(){
+    arr = [];
     numbershowbtn.each(function(){
      let numberItems = $(this);
      let number = Number(numberItems.text())
@@ -155,53 +234,12 @@ function maincunter(){
   return sum - 1;
 }
 
+
 // passenger counter end
 
 
 
 
-// location element filter 
-window.onload = load();
-function load(){
-    $('.filterLocation .btnlist>li').click(function(){
-        $(this).addClass('active');
-      let value =$(this).attr('data-filter');
-      let item = $('.filterLocation .filterItem .item-wrap');
-      console.log(value);
-        if(value == 'all'){
-            $('.filterLocation .filterItem .item-wrap').show(1000)
-        }else{
-            item.not('.'+value).hide(1000);
-            item.filter('.'+value).show(1000);
-        }
-        // class1 = item.attr('class').split(' ')[0];
-        $(this).siblings().removeClass('active')
-    
-        // console.log(jQuery('selector').attr('class').split(' ')[0]);
-    })
-}
-function load(){
-    $('.filterLocation .btnlist>li').click(function(){
-        $(this).addClass('active');
-      let value =$(this).attr('data-filter');
-      let item = $('.filterLocation .filterItem1 .item-wrap');
-      console.log(value);
-        if(value == 'Las-Vegas'){
-            item.show(1000)
-        }else{
-            item.not('.'+value).hide(1000);
-            item.filter('.'+value).show(1000);
-        }
-        // class1 = item.attr('class').split(' ')[0];
-        $(this).siblings().removeClass('active')
-    
-        // console.log(jQuery('selector').attr('class').split(' ')[0]);
-    })
-}
-// window.onload = function (){
-//     $('.lowest').show(500);
-//     $('div#overlay').show();
-// }
 $('.page-header__call').click(function(){
     $('div#overlay').show();
     $('.lowest').toggle();
@@ -232,21 +270,7 @@ $(".text p").click(function(){
     $('div#overlay').show();
 })
 
-$(".search ").click(function(){
-    // console.log($('.search-container').hasClass("ami"))
-    // $(".scerch_container").toggleClass('show');
-    if($(this).children('img').attr('src')=='img/search.png'){
-        $(this).children('img').attr('src','img/times.png');
-        $(".scerch_container").addClass('show');
-        $('#overlay').show(10)
-    }else{
-        
-        $(".scerch_container").removeClass('show');
-        $(this).children('img').attr('src','img/search.png');
-        $('#overlay').hide(100)
-    }
-    // $(".search.after img ").attr("src", "img/times.png");
-})
+
 // function of(){
     $('div#overlay').click(function(){
         $('.lowest').hide();

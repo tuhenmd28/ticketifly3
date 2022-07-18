@@ -197,7 +197,7 @@
           <div class="container">
             <div class="row justify-content-center justify-content-between">
               <div class="col-12 col-md col-lg-3 d-flex justify-content-center justify-content-md-start">
-                <a class="navbar-logo d-inline-flex align-items-center" href="index-2.html">
+                <a class="navbar-logo d-inline-flex align-items-center" href="index.php">
                   <img class="img-fluid mr-3" src="img/clogo.png" alt="#" />
                 </a>
               </div>
@@ -223,7 +223,7 @@
               </div>
               <div class="col col-lg-3 d-none d-md-flex">
                 <ul class="nav nav-panel">
-                  <li class="nav-item d-flex">
+                  <li class="nav-item d-none">
                     <a class="nav-link btn btn-light js-toggle-account" href="#modalAccount" data-toggle="modal" role="button" data-account="login">
                       <img src="img/enter.png" style="width:25px ;" alt="">
                       <span>log in</span>
@@ -231,8 +231,8 @@
                   </li>
                   <li class="nav-item d-flex">
                     <a class="nav-link btn btn-light js-toggle-account" href="#">
-                      <img src="img/laptop (1).png" style="width:25px ;" alt="">
-                      <span>My Booking</span>
+                      <img src="img/facebook1.png" style="width:25px ;" alt="">
+                      <span>Connecting</span>
                     </a>
                   </li>
                 </ul>

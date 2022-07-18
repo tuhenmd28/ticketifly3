@@ -4,7 +4,7 @@
         <div class="intro__content d-flex flex-column justify-content-end js-intro-content">
           <div class="container">
             <div class="row">
-              <div class="col-lg-6 ">
+              <div class="col-lg-6 d-lg-block d-none">
                 <div class="secmain-img-wraper rellax " data-rellax-speed="5" data-rellax-percentage="0">
                   <img class="secmain-img img-fluid" style="transform:scale(1.2); height: 480px;" src="img/banner-animation/cloud.png" alt="flight" />
                   <span id="overlap1">
@@ -33,7 +33,7 @@
                           <label for="One-Way">One-Way</label>
                         </li>
                         <li>
-                          <a data-toggle="modal" href="#searchModel">Multi-City Flights</a>
+                          <a  href="multicity.php">Multi-City Flights</a>
                         </li>
                       </ul>
                     </div>
@@ -65,27 +65,46 @@
                       </li>
                     </div>
                     <div class="ClsPger">
-                      <li>
+                      <li class="position-relative">
                         <label for="">Passenger</label>
-                        <input type="text" name="passender" list="passenger" placeholder="1 ADULT + 2CHILD">
-                        <datalist id="passenger">
-                          <option selected value="1 ADULT + 2CHILD">1 ADULT + 0 CHILD</option>
-                          <option value="1 ADULT + 1 CHILD">1 ADULT + 1 CHILD</option>
-                          <option value="2 ADULT + 1 CHILD">2 ADULT + 1 CHILD</option>
-                          <option value="3 ADULT + 1 CHILD">3 ADULT + 1 CHILD</option>
-                          <option value="4 ADULT + 1 CHILD">4 ADULT + 1 CHILD</option>
-                          <option value="5 ADULT + 1 CHILD">5 ADULT + 1 CHILD</option>
-                          <option value="6 ADULT + 1 CHILD">6 ADULT + 1 CHILD</option>
-                          <option value="7 ADULT + 1 CHILD">7 ADULT + 1 CHILD</option>
-                          <option value="8 ADULT + 1 CHILD">8 ADULT + 1 CHILD</option>
-                          <option value="9 ADULT + 0 CHILD">9 ADULT + 0 CHILD</option>
-                          <option value="1 ADULT + 2 CHILD">1 ADULT + 2 CHILD</option>
-                          <option value="1 ADULT + 3 CHILD">1 ADULT + 3 CHILD</option>
-                          <option value="1 ADULT + 4 CHILD">1 ADULT + 4 CHILD</option>
-                          <option value="1 ADULT + 5 CHILD">1 ADULT + 5 CHILD</option>
-                          <option value="1 ADULT + 6 CHILD">1 ADULT + 6 CHILD</option>
-                          <option value="1 ADULT + 2 CHILD">1 ADULT + 7 CHILD</option>
-                        </datalist>
+                        <input type="text" name="passender"   placeholder="1 Passenger ">
+                        <div class="classAndPassenger classAndPassenger1">
+                          <div>
+                            <div class="d-flex flex-column">
+                              <span>Adult (16-64)</span>
+                              <div class="btnsubadd">
+                                <span id="subtract">-</span>
+                                <span id="numver">1</span>
+                                <span id="addition">+</span>
+                              </div>
+                            </div>
+                            <div class="d-flex flex-column">
+                              <span>Senior (65+)</span>
+                              <div class="btnsubadd">
+                                <span id="subtract" class="disable">-</span>
+                                <span id="numver">0</span>
+                                <span id="addition">+</span>
+                              </div>
+                            </div>
+                            <div class="d-flex flex-column">
+                              <span>Child (2-15)</span>
+                              <div class="btnsubadd">
+                                <span id="subtract" class="disable">-</span>
+                                <span id="numver">0</span>
+                                <span id="addition">+</span>
+                              </div>
+                            </div>
+                            <div class="d-flex flex-column">
+                              <span>Lap Infant (under 2)</span>
+                              <div class="btnsubadd">
+                                <span id="subtract" class="disable">-</span>
+                                <span id="numver">0</span>
+                                <span id="addition">+</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="btn btn-primary float-right mt-3">Done</span>
+                        </div>
                         <img src="img/profile.png" alt="">
                       </li>
                       <li>
@@ -793,182 +812,7 @@
     <!-- Get Instant FREE access to unpublished hand-picked deals! --> 
     <!-- your bast email enter section start from here --> 
     <!-- your bast email enter section end  here --> 
-    <!-- commend section start from here --> 
-    <section>
-      <div class="recommend">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-6 col-12 text-center mb-2 mb-md-0">
-              <h4 class="">97% Of Travelers Recommend Ticketifly Tickets</h4>
-            </div>
-            <div class="col-md-6 d-flex align-items-center justify-content-center col-12">
-              <div class="star d-flex pr-2">
-                <span>
-                  <img style="width:20px ;" src="img/7589102.png" alt="">
-                </span>
-                <span>
-                  <img style="width:20px ;" src="img/7589102.png" alt="">
-                </span>
-                <span>
-                  <img style="width:20px ;" src="img/7589102.png" alt="">
-                </span>
-                <span>
-                  <img style="width:20px ;" src="img/7589102.png" alt="">
-                </span>
-                <span>
-                  <img style="width:20px ;" src="img/7589102.png" alt="">
-                </span>
-              </div>
-              <p>4.7 out of 5 Based on 416079 reviews</p>
-            </div>
-          </div>
-          <div class="sliders">
-            <div class="commendSlider">
-              <div class="slide-box ">
-                <div class="profileImg">
-                  <img src="img/download (22).jpg" alt="">
-                </div>
-                <div class="d-flex justify-content-between">
-                  <h4>Mehedi Hasan</h4>
-                  <div class="star d-flex">
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                  </div>
-                </div>
-                <samp>Charlotte - London </samp>
-                <p>Lorem ipsum dolor sit amet consectetur Adipisci sapiente nihil ipsum sit deleniti. Obcaecati ullam laborum quisquam! Amet neque aspernatur.</p>
-                <span>04/05/2022</span>
-              </div>
-              <div class="slide-box">
-                <div class="profileImg">
-                  <img src="img/download (23).jpg" alt="">
-                </div>
-                <div class="d-flex justify-content-between">
-                  <h4>Mehedi Hasan</h4>
-                  <div class="star d-flex">
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                  </div>
-                </div>
-                <samp>Charlotte - London </samp>
-                <p>Lorem ipsum dolor sit amet consectetur Adipisci sapiente nihil ipsum sit deleniti. Obcaecati ullam laborum quisquam! Amet neque aspernatur.</p>
-                <span>04/05/2022</span>
-              </div>
-              <div class="slide-box">
-                <div class="profileImg">
-                  <img src="img/download (24).jpg" alt="">
-                </div>
-                <div class="d-flex justify-content-between">
-                  <h4>Mehedi Hasan</h4>
-                  <div class="star d-flex">
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/3893865.png" alt="">
-                    </span>
-                  </div>
-                </div>
-                <samp>Charlotte - London </samp>
-                <p>Lorem ipsum dolor sit amet consectetur Adipisci sapiente nihil ipsum sit deleniti. Obcaecati ullam laborum quisquam! Amet neque aspernatur.</p>
-                <span>04/05/2022</span>
-              </div>
-              <div class="slide-box">
-                <div class="profileImg">
-                  <img src="img/images (7).jpg" alt="">
-                </div>
-                <div class="d-flex justify-content-between">
-                  <h4>Mehedi Hasan</h4>
-                  <div class="star d-flex">
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                  </div>
-                </div>
-                <samp>Charlotte - London </samp>
-                <p>Lorem ipsum dolor sit amet consectetur Adipisci sapiente nihil ipsum sit deleniti. Obcaecati ullam laborum quisquam! Amet neque aspernatur.</p>
-                <span>04/05/2022</span>
-              </div>
-              <div class="slide-box">
-                <div class="profileImg">
-                  <img src="img/images (8).jpg" alt="">
-                </div>
-                <div class="d-flex justify-content-between">
-                  <h4>Mehedi Hasan</h4>
-                  <div class="star d-flex">
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/7589102.png" alt="">
-                    </span>
-                    <span>
-                      <img style="width:20px;height: 20px;" src="img/3893865.png" alt="">
-                    </span>
-                  </div>
-                </div>
-                <samp>Charlotte - London </samp>
-                <p>Lorem ipsum dolor sit amet consectetur Adipisci sapiente nihil ipsum sit deleniti. Obcaecati ullam laborum quisquam! Amet neque aspernatur.</p>
-                <span>04/05/2022</span>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section> 
-       <!-- conmmend section end here  -->
+    
        <section>
         <div class="filterLocation">
            <h2>Top Round-Trip Flight Deals</h2>

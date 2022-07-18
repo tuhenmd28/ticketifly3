@@ -47,8 +47,8 @@
     </div>
 </section>
 
-<section class="verticalform">
-<div class="container">
+<section class="verticalform mcform ">
+<div class="container text-center">
 <ul class="nav nav-tabs " role="tablist">
   <li class="nav-item ">
     <a class="nav-link active" data-toggle="tab" href="#home">Round-Trip</a>

@@ -73,29 +73,48 @@
                   </li>
                 </div>
                 <div class="ClsPger">
-                  <li>
-                    <label for="">Passenger</label>
-                    <input type="text" name="passender" list="passenger" placeholder="1 ADULT + 2CHILD">
-                    <datalist id="passenger">
-                      <option selected value="1 ADULT + 2CHILD">1 ADULT + 0 CHILD</option>
-                      <option value="1 ADULT + 1 CHILD">1 ADULT + 1 CHILD</option>
-                      <option value="2 ADULT + 1 CHILD">2 ADULT + 1 CHILD</option>
-                      <option value="3 ADULT + 1 CHILD">3 ADULT + 1 CHILD</option>
-                      <option value="4 ADULT + 1 CHILD">4 ADULT + 1 CHILD</option>
-                      <option value="5 ADULT + 1 CHILD">5 ADULT + 1 CHILD</option>
-                      <option value="6 ADULT + 1 CHILD">6 ADULT + 1 CHILD</option>
-                      <option value="7 ADULT + 1 CHILD">7 ADULT + 1 CHILD</option>
-                      <option value="8 ADULT + 1 CHILD">8 ADULT + 1 CHILD</option>
-                      <option value="9 ADULT + 0 CHILD">9 ADULT + 0 CHILD</option>
-                      <option value="1 ADULT + 2 CHILD">1 ADULT + 2 CHILD</option>
-                      <option value="1 ADULT + 3 CHILD">1 ADULT + 3 CHILD</option>
-                      <option value="1 ADULT + 4 CHILD">1 ADULT + 4 CHILD</option>
-                      <option value="1 ADULT + 5 CHILD">1 ADULT + 5 CHILD</option>
-                      <option value="1 ADULT + 6 CHILD">1 ADULT + 6 CHILD</option>
-                      <option value="1 ADULT + 2 CHILD">1 ADULT + 7 CHILD</option>
-                    </datalist>
-                    <img src="img/profile.png" alt="">
-                  </li>
+                <li class="position-relative">
+                        <label for="">Passenger</label>
+                        <input type="text" name="passender"  placeholder="1 Passenger ">
+                        <div class="classAndPassenger classAndPassenger1">
+                          <div>
+                            <div class="d-flex flex-column">
+                              <span>Adult (16-64)</span>
+                              <div class="btnsubadd">
+                                <span id="subtract">-</span>
+                                <span id="numver">1</span>
+                                <span id="addition">+</span>
+                              </div>
+                            </div>
+                            <div class="d-flex flex-column">
+                              <span>Senior (65+)</span>
+                              <div class="btnsubadd">
+                                <span id="subtract" class="disable">-</span>
+                                <span id="numver">0</span>
+                                <span id="addition">+</span>
+                              </div>
+                            </div>
+                            <div class="d-flex flex-column">
+                              <span>Child (2-15)</span>
+                              <div class="btnsubadd">
+                                <span id="subtract" class="disable">-</span>
+                                <span id="numver">0</span>
+                                <span id="addition">+</span>
+                              </div>
+                            </div>
+                            <div class="d-flex flex-column">
+                              <span>Lap Infant (under 2)</span>
+                              <div class="btnsubadd">
+                                <span id="subtract" class="disable">-</span>
+                                <span id="numver">0</span>
+                                <span id="addition">+</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="btn btn-primary float-right mt-3">Done</span>
+                        </div>
+                        <img src="img/profile.png" alt="">
+                      </li>
                   <li>
                     <label for=""> class</label>
                     <input type="text" list="class" name="class" placeholder="Economy">
@@ -145,29 +164,48 @@
                   </li>
                 </div>
                 <div class="ClsPger">
-                  <li>
-                    <label for="">Passenger</label>
-                    <input type="text" name="passender" list="passenger" placeholder="1 ADULT + 2CHILD">
-                    <datalist id="passenger">
-                      <option selected value="1 ADULT + 2CHILD">1 ADULT + 0 CHILD</option>
-                      <option value="1 ADULT + 1 CHILD">1 ADULT + 1 CHILD</option>
-                      <option value="2 ADULT + 1 CHILD">2 ADULT + 1 CHILD</option>
-                      <option value="3 ADULT + 1 CHILD">3 ADULT + 1 CHILD</option>
-                      <option value="4 ADULT + 1 CHILD">4 ADULT + 1 CHILD</option>
-                      <option value="5 ADULT + 1 CHILD">5 ADULT + 1 CHILD</option>
-                      <option value="6 ADULT + 1 CHILD">6 ADULT + 1 CHILD</option>
-                      <option value="7 ADULT + 1 CHILD">7 ADULT + 1 CHILD</option>
-                      <option value="8 ADULT + 1 CHILD">8 ADULT + 1 CHILD</option>
-                      <option value="9 ADULT + 0 CHILD">9 ADULT + 0 CHILD</option>
-                      <option value="1 ADULT + 2 CHILD">1 ADULT + 2 CHILD</option>
-                      <option value="1 ADULT + 3 CHILD">1 ADULT + 3 CHILD</option>
-                      <option value="1 ADULT + 4 CHILD">1 ADULT + 4 CHILD</option>
-                      <option value="1 ADULT + 5 CHILD">1 ADULT + 5 CHILD</option>
-                      <option value="1 ADULT + 6 CHILD">1 ADULT + 6 CHILD</option>
-                      <option value="1 ADULT + 2 CHILD">1 ADULT + 7 CHILD</option>
-                    </datalist>
-                    <img src="img/profile.png" alt="">
-                  </li>
+                <li class="position-relative">
+                        <label for="">Passenger</label>
+                        <input type="text" name="passender"  placeholder="1 Passenger ">
+                        <div class="classAndPassenger classAndPassenger1">
+                          <div>
+                            <div class="d-flex flex-column">
+                              <span>Adult (16-64)</span>
+                              <div class="btnsubadd">
+                                <span id="subtract">-</span>
+                                <span id="numver">1</span>
+                                <span id="addition">+</span>
+                              </div>
+                            </div>
+                            <div class="d-flex flex-column">
+                              <span>Senior (65+)</span>
+                              <div class="btnsubadd">
+                                <span id="subtract" class="disable">-</span>
+                                <span id="numver">0</span>
+                                <span id="addition">+</span>
+                              </div>
+                            </div>
+                            <div class="d-flex flex-column">
+                              <span>Child (2-15)</span>
+                              <div class="btnsubadd">
+                                <span id="subtract" class="disable">-</span>
+                                <span id="numver">0</span>
+                                <span id="addition">+</span>
+                              </div>
+                            </div>
+                            <div class="d-flex flex-column">
+                              <span>Lap Infant (under 2)</span>
+                              <div class="btnsubadd">
+                                <span id="subtract" class="disable">-</span>
+                                <span id="numver">0</span>
+                                <span id="addition">+</span>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="btn btn-primary float-right mt-3">Done</span>
+                        </div>
+                        <img src="img/profile.png" alt="">
+                      </li>
                   <li>
                     <label for=""> class</label>
                     <input type="text" list="class" name="class" placeholder="Economy">
@@ -228,7 +266,7 @@
                   </li>
                 </div>
                 <div class="pangclsnumsub">
-                  <li class="w-100">
+                  <li class="w-100 d-none">
                     <input type="text" name="passenger" list="passenger" placeholder="Passenger">
                     <datalist id="passenger">
                       <option selected value="1 ADULT + 2CHILD">1 ADULT + 0 CHILD</option>

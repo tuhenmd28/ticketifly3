@@ -3324,6 +3324,19 @@ section.singleBanner.bread.banner nav ol li.breadcrumb-item a {
 section.whycall.singleAirline {
     margin-top: 50px;
 }
+#singlemodel .Drightside .callEx>form>.row>div>input {
+    padding: 4px 0 4px 8px;
+    padding: 7px 0 7px 10px;
+    border: 1px solid #ff6663;
+    background: transparent;
+    box-shadow:none;
+}
+#singlemodel .modal-dialog .modal-content .col-12 button {
+    background: #ff6663;
+}
+#singlemodel .modal-dialog .modal-content .col-12 button:hover {
+    background: transparent;
+}
 section.whycall.singleAirline .container .callwrap .row .contentwrap .textarea {
     width: 80%;
 }
@@ -3404,6 +3417,458 @@ section.signinbanner {
 Single Airline page style end here 
 *******************************************************************
 */
+/*
+*******************************************************************
+FAQ page style end here 
+*******************************************************************
+*/
+.faqBanner {
+    background: url(img/flightbanner.jpg) center no-repeat;
+    background-size: cover;
+    height: auto;
+}
+.accordion-button span:nth-child(1) img {
+    margin-right: -14px;
+}
+.tabContent .tab-pane .nextRow {}
+.tabContent .tab-pane .nextRow ul{
+    display: flex;
+    padding: 10px 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    min-width: 100%;
+    flex-direction: column;
+}
+.tabContent .tab-pane .nextRow ul li::after{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0 ;
+    background: #ff6663;
+    transition: all .4s;
+}
+.tabContent .tab-pane .nextRow ul li.active::after,
+.tabContent .tab-pane .nextRow ul li:hover::after{
+    width: 70%;
+}
+.tabContent .tab-pane .nextRow ul li.active,
+.tabContent .tab-pane .nextRow ul li:hover{
+    color: #ff6663;
+    background: none;
+    border: none;
+}
+.tabContent .tab-pane .nextRow ul li {
+    cursor: pointer;
+    position: relative;
+    font-size: 18px;
+    padding: 10px 0;
+    /* background: linear-gradient(45deg, #ff6663, #ff6663); */
+    color: #000;
+    margin: 4px 0px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    text-align: center;
+    transition: all .5s;
+    border-radius: 4px;
+    flex-wrap: nowrap;
+    flex: none;
+    padding: 5px 10px;
+    font-weight: normal;
+}
+.tabContent .tab-pane{
+    margin-top: 50px;
+}
+.tabContent .tab-pane h2.color{padding: 0 0 20px 0;text-align: left;font-size: 28px;}
+.tabContent .tab-pane p{
+    font-size: 16px;
+    width: 92%;
+}
+.tabContent .tab-pane .video {
+    padding-top: 56.25%;
+    height: 0px;
+    position: relative;
+}
+.tabContent .accordion-button span:nth-child(1) {
+    font-size: 20px;
+    transform: translateX(0px);
+}
+.tabContent .accordion-button span:nth-child(3),.tabContent .accordion-button span:nth-child(2) {
+    border: none !important;;
+}
+.tabContent .tab-pane .video iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.faqBanner.mcform  div ul {
+    padding:0px;
+    border-radius: 5px;
+}
+.faqBanner.mcform div .nav-item:first-child a.nav-link {
+    border-radius: 5px 0 0 5px;
+    border-left: none;
+}
+.faqBanner.mcform div .nav-item:last-child a.nav-link {
+    border-radius: 0 5px 5px 0;
+    border-right: none;
+}
+.faqBanner.mcform  div  .nav-tabs a.nav-link:hover {
+    color: #000;
+    background: #cae2ec;
+    border-right: 2px solid #cae2ec;
+}
+.faqBanner.mcform div .nav-tabs a.nav-link {
+    border-radius: 0px;
+    margin: 0 0px;
+    padding: 15px 10px;
+    border-right: 2px solid #ffffff;
+}
+.faqBanner.bread nav ol {
+    margin-top:0px;
+}
+.breadcrumb-item+.breadcrumb-item:before {
+    display: inline-block;
+    padding: 0 .25rem;
+    color: inherit;
+    content: "/";
+}
+.faqBanner.bread nav ol li.breadcrumb-item {
+    color: #ff6663;
+}
+.faqBanner.bread nav ol li.breadcrumb-item a {
+    font-size: 16px;
+    color: #000000;
+}
+.faqBanner .accordion-body p{
+    font-size: 16px;
+}
+.accordion-button {
+    background: transparent;
+    justify-content: space-between;
+    z-index: 1;
+}
+.accordion-flush .accordion-item .accordion-button {
+    padding-left: 0;
+}
+.accordion-button span:nth-child(1){
+    font-size: 20px;
+    transform: translateX(-18px);
+}
+.accordion-button span:nth-child(3){
+    display: none;
+}
+.accordion-button:not(.collapsed) span:nth-child(2){
+    display: none;
+}
+.accordion-button:not(.collapsed) span:nth-child(3){
+    display: block;
+}
+.accordion-button::after{
+    display: none;
+}
+.accordion-item{
+    background: transparent;
+}
+.accordion-button span:nth-child(3), .accordion-button span:nth-child(2) {
+    padding: 6px 8px;
+    border-radius: 15px;
+    border: 1px solid #ff6663;
+    font-size: 15px;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color:transparent;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+
+
+/*
+*******************************************************************
+FAQ page style end here 
+*******************************************************************
+*/
+/*
+*******************************************************************
+View Deals  page style start here 
+*******************************************************************
+*/
+.viewDealBanner{
+    background:url(img/flightbanner.jpg) center no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-top: 60px;
+}
+.viewDealBanner .viweDealSlider .sliderItem.active {
+    background: #c6e4f4;
+    border-bottom: 4px solid #ff6663;
+    transition: border-bottom .3s;
+}
+.viewDealBanner .viweDealSlider .sliderItem {
+    background: #ffffffd6;
+    border-bottom: 4px solid #eae8ff;
+    margin: 0 8px;
+    border-radius: 5px  5px 0 0;
+    padding: 7px 10px 3px 10px;
+}
+.viweDealSlider span.next_arow.slick-arrow{
+    left: -13px;
+}
+.viweDealSlider span.prev_arow.slick-arrow{
+    right: -13px;
+}
+
+.viweDealSlider span.next_arow.slick-arrow, .viweDealSlider span.prev_arow.slick-arrow {
+    cursor: pointer;
+    position: absolute;
+    color: #FFFFFF;
+    background: #ff6663;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 11;
+}
+.viweDealSlider span.next_arow.slick-arrow.slick-disabled, .viweDealSlider span.prev_arow.slick-arrow.slick-disabled {
+    display: none !important;
+}
+.viewDealBanner .viweDealSlider .sliderItem .text-center>img{
+    width: 100px;
+    height: auto;
+    margin: auto;
+}
+.viewDealBanner .viweDealSlider .sliderItem .d-flex{
+    justify-content: space-between;
+    padding: 10px 10px 0;
+}
+.viewDealBanner .viweDealSlider .sliderItem .d-flex h4 {
+    color: black;
+    font-size: 17px;
+}
+.viewDealBanner .viweDealSlider .sliderItem .d-flex p{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #FF6663;
+}
+.viewDealBanner .viweDealSlider .sliderItem .d-flex p span{
+    color: darkseagreen;
+    font-size: 13px;
+    display: block;
+    text-align: right;
+    margin-top: -6px;
+}
+.viewDealBanner ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    position: relative;
+}
+.viewDealBanner ul::before {
+    content: '';
+    position: absolute;
+    width: calc(100% - 186px);
+    height: 2px;
+    background: #ff6663;
+    top: -18px;
+    left: 50%;
+    transform: translate(-50%);
+    display: none;
+}
+.viewDealBanner ul li:not(li:last-child)::before {
+    content: '';
+    position: absolute;
+    width: 73%;
+    height: 2px;
+    background: #ff6663;
+    top: -21px;
+    left: 63%;
+}
+.flightDetails{}
+.flightDetails .flightDetailsBox {
+    background: #eae8ff;
+    /* padding: 20px; */
+    border-radius: 5px;
+    box-shadow: 0 0 10px 4px #00000036;
+}
+.flightDetails .flightDetailsBox > .d-flex{
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #ff6663;
+    align-items: center;
+}
+.flightDetails .flightDetailsBox .leftHeader{}
+.flightDetails .flightDetailsBox .leftHeader span{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+.flightDetails .flightDetailsBox .leftHeader img{
+    margin-right: 10px;
+}
+.flightDetails .flightDetailsBox .leftHeader span:nth-child(3){}
+.flightDetails .flightDetailsBox .rightHeader {}
+.flightDetails .flightDetailsBox .rightHeader span{
+    font-size: 14px;
+}
+.flightDetails .flightDetailsBox .rightHeader span:last-child{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.flightDetails .flightDetailsBox .boxBady{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.flightDetails .flightDetailsBox .boxBady>div{display: flex;}
+.flightDetails .flightDetailsBox .boxBady .bodyleft{
+    flex: 25%;
+}
+.flightDetails .flightDetailsBox .boxBady .bodyleft>div img{}
+.flightDetails .flightDetailsBox .boxBady .bodyleft>div{
+    padding-bottom: 11px;
+}
+.flightDetails .flightDetailsBox .boxBady .bodyleft p{
+    margin: 0;
+    /* color: #000000b5; */
+}
+.flightDetails .flightDetailsBox .boxBady .bodyleft p>span{}
+.flightDetails .flightDetailsBox .boxBady .bodyright{
+    flex: 55%;
+}
+.flightDetails .flightDetailsBox .boxBady .bodyright p.dot::after{
+    background-color: #ff6663;
+}
+.flightDetails .flightDetailsBox .boxBady .bodyright p:nth-child(3)::after,
+.flightDetails .flightDetailsBox .boxBady .bodyright p:nth-child(1)::after{
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding: 1px;
+    border: 1px solid #ff6663;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.flightDetails .flightDetailsBox .boxBady .bodyright p:nth-child(2) img {
+    position: absolute;
+    width: 50px;
+    transform: rotate(90deg) translate(0px,47px);
+    left: 0;
+    top: 9px;
+    height: 30px;
+}
+
+.flightDetails .flightDetailsBox .boxBady .bodyright p:nth-child(2){
+    font-size: 14px;
+    color: #ff6663;
+    font-weight: normal;
+    padding: 15px 0;
+}
+.flightDetails .flightDetailsBox .boxBady .bodyright p{
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    font-weight: 600;
+    position: relative;
+}
+.flightDetails .flightDetailsBox .boxBady .bodyright p span{}
+.viewDealBanner ul li {
+    flex: 25%;
+    position: relative;
+    text-align: center;
+}
+.flightDetails .flightDetailsBox .boxBady .bodyright h6 {
+    margin: 30px 0;
+    padding: 15px 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-size: 15px;
+}
+.flightDetails .flightDetailsBox .boxBady .bodyright h6 span {
+    color: #ff6663;
+}
+.viewDealBanner ul li::after {
+    content: attr(data-list) '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50%;
+    background:transparent;
+    color: #ff6663;
+    display: grid;
+    place-content: center;
+    top: -42px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid;
+}
+.viewDealBanner ul li.complete::after {
+    content: '\f00c';
+    font: normal normal normal 14px/1 FontAwesome;
+    background: green;
+    font-size: 26px;
+    color: #fff;
+}
+.containerView{
+    width: 96.4%;
+    margin: auto;
+}
+.hoverItem .d-none::after {
+    position: absolute;
+    content: '';
+    border-right: 15px solid white;
+    border-top: 15px solid #ff000000;
+    left: 50%;
+    top: 89%;
+    transform: rotate(45deg) translateX(-50%);
+}
+.hoverItem .d-none {
+    position: absolute;
+    bottom: 115%;
+    left: 50%;
+    background: white;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.203);
+    padding: 8px;
+    /* white-space: nowrap; */
+    border-radius: 4px;
+    transform: translateX(-50%);
+    transition: all .4s;
+    font-weight: normal;
+    font-size: 13px;
+}
+.hoverItem:hover .d-none{
+    display:block !important;
+}
+.hoverItem{
+    text-decoration: underline dotted;
+    position: relative;
+}
+/*
+*******************************************************************
+View Deals  page style end here 
+*******************************************************************
+*/
 
 
 
@@ -3446,9 +3911,10 @@ input.form-control.form-control-sm:focus {
 
 }
 .modal-content {
-    border-radius: 0;
+    border-radius:5px;
+    border: none;
     border-color: #999;
-    background: linear-gradient(45deg, #f3f3f3de, #ffffff);
+    /* background: linear-gradient(45deg, #f3f3f3de, #ffffff); */
 }
 button.btn.btn-secondary.btn--round.mr-2.mb-2.disabled:hover,button.btn.btn-secondary.btn--round.disabled:hover {
     color: #ede9e7;
@@ -3562,10 +4028,52 @@ a:hover {
 .filterLocation .btnlist::-webkit-scrollbar-track{background: rgb(204, 204, 204);}
 .filterLocation .btnlist::-webkit-scrollbar-thumb{width: 4px;background:#ff6663;border-radius: 2px;}
 .filterLocation .btnlist::-webkit-scrollbar-thumb:hover{background: rgb(15, 15, 15);}
+
+.faqBanner.mcform div ul::-webkit-scrollbar{border-radius: 2px;height: 8px;}
+.faqBanner.mcform div ul::-webkit-scrollbar-track{background: rgb(204, 204, 204);}
+.faqBanner.mcform div ul::-webkit-scrollbar-thumb{width: 4px;background:(45deg ,#cc2b5e ,#753a88);border-radius: 2px;}
+.faqBanner.mcform div ul::-webkit-scrollbar-thumb:hover{background: rgb(15, 15, 15);}
+
+.tabContent .tab-pane .nextRow ul::-webkit-scrollbar{border-radius: 2px;height: 8px;}
+.tabContent .tab-pane .nextRow ul::-webkit-scrollbar-track{background: rgb(204, 204, 204);}
+.tabContent .tab-pane .nextRow ul::-webkit-scrollbar-thumb{width: 4px;background:(45deg ,#cc2b5e ,#753a88);border-radius: 2px;}
+.tabContent .tab-pane .nextRow ul::-webkit-scrollbar-thumb:hover{background: rgb(15, 15, 15);}
 }
   
 @media(max-width:991px){
-    
+    .tabContent .tab-pane .nextRow ul{
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 100%;
+        min-width: 100%;
+        flex-direction: row;
+    }
+    .tabContent .tab-pane .nextRow ul li.active, .tabContent .tab-pane .nextRow ul li:hover {
+        background: none;
+        border: 2px solid #ff6663;
+        color: #ff6663;
+    }
+    .tabContent .tab-pane .nextRow ul li{
+        font-size: 16px;
+        padding: 10px 0;
+        background: linear-gradient(45deg, #ff6663, #ff6663);
+        color: #ffffff;
+        margin: 0 3px;
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: row;
+        font-weight: 700;
+        text-align: center;
+        transition: all .5s;
+        border-radius: 4px;
+        flex-wrap: nowrap;
+        flex: none;
+        padding: 10px;
+        font-weight: normal;
+    }
     .howItworks .box-wraper .box img {
         width: 170px;
     }
@@ -3878,6 +4386,16 @@ nav .main-nav__list .nav-link {
     flex-wrap: wrap;
     row-gap: 15px;
 }
+.tabContent .tab-pane p {
+    font-size: 14px;
+    width: 100%;
+}
+.tabContent .tab-pane h2.color {
+    font-size: 25px;
+}
+.tabContent .tab-pane .nextRow ul li::after{
+    display: none;
+}
 
 }
 @media(min-width:991px){
@@ -4084,6 +4602,20 @@ nav .main-nav__list .nav-link {
     }
 }
 @media(max-width:680px){
+    .accordion-button span:nth-child(1) {
+        font-size: 17px;
+        transform: translateX(-15px);
+    }
+    .faqBanner.mcform div .nav-tabs a.nav-link {
+        white-space: nowrap;
+    }
+    .faqBanner .accordion-body p {
+        font-size: 14px;
+    }
+    .accordion-button span:nth-child(3), .accordion-button span:nth-child(2) {
+        font-size: 13px;
+        white-space: nowrap;
+    }
     form .formcontent .passenger {
         padding: 7px 5px;
     }
@@ -4139,6 +4671,42 @@ nav .main-nav__list .nav-link {
     }
 }
 @media(max-width:575px){
+    .faqBanner.bread nav ol li.breadcrumb-item a {
+        font-size: 13px;
+    }
+    .tabContent .tab-pane h2.color {
+        font-size: 22px;
+    }
+    .tabContent .tab-pane p {
+        font-size: 14px;
+        width: 100%;
+    }
+    .faqBanner.bread nav ol li.breadcrumb-item {
+        font-size: 13px;
+    }
+    .accordion-button span:nth-child(1) img {
+        margin-right: -11px;
+        margin-top: -4px;
+        width: 30px !important;
+    }
+    .accordion-button span:nth-child(1) {
+        font-size: 16px;
+        transform: translateX(0px);
+        display: flex;
+        gap: 10px;
+    }
+    .faqBanner.mcform  div ul {
+        padding: 0px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 100%;
+        min-width: 100%;
+        overflow-y: hidden;
+    }
     .filterLocation h2 {
         padding: 5px 0;
         font-size: 25px;

@@ -387,6 +387,25 @@ flatpickr("#departure", {
           }
         }, ]
       });
+      $('.viweDealSlider').slick({
+        infinite: false,
+        speed: 1000,
+        slidesToShow: 4,
+        slidesToScroll:2,
+        prevArrow: '  <span class="next_arow "> <i class="fas fa-chevron-left"></i> </span>',
+        nextArrow: '  <span class="prev_arow "> <i class="fas fa-chevron-right"></i> </span>',
+        responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 3,
+          }
+        }, {
+          breakpoint: 500,
+          settings: {
+            slidesToShow: 2,
+          }
+        }, ]
+      });
 
       $('.pilot').slick({
         infinite: true,

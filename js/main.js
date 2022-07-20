@@ -3,6 +3,7 @@
 window.onload = load();
 window.onload = load1();
 window.onload = load2();
+window.onload = load3();
 function load(){
     $('.filterLocation .btnlist>li').click(function(){
         $(this).addClass('active');
@@ -57,6 +58,31 @@ function load2(){
         // console.log(jQuery('selector').attr('class').split(' ')[0]);
     })
 }
+// FAQ page filter function and other code start
+function load3(){
+    $('.tabContent .tab-pane .nextRow ul li').click(function(){
+        $(this).addClass('active');
+      let value =$(this).attr('data-filter');
+      let item = $('.tabContent .nextRow .accordion .accordion-item');
+      console.log(value);
+        if(value == 'AboutTicketiflyTickets'){
+            item.show(1000)
+        }else{
+            item.not('.'+value).hide(1000);
+            item.filter('.'+value).show(1000);
+        }
+        $(this).siblings().removeClass('active')
+    
+    })
+}
+
+    $('.faqBanner.mcform div .nav-tabs a.nav-link').click(function(){
+        let thisText = $(this).text();
+        console.log(thisText);
+        $('.faqBanner.bread nav ol li.breadcrumb-item:last-child').text(thisText)
+    })
+
+// FAQ page filter function and other code end
 
 // singleAirline page modal code
 

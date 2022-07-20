@@ -352,32 +352,32 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li class="nav-item">
-                      <a class="nav-link" href="index-2.html">
+                      <a class="nav-link" href="#">
                         <span>Top Airline Deals </span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-account.html">
+                      <a class="nav-link" href="#">
                         <span>Cheap Flight Tickets</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-video.html">
+                      <a class="nav-link" href="#">
                         <span>Group Travel</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-video.html">
+                      <a class="nav-link" href="#">
                         <span>Multi City Flights</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-video.html">
+                      <a class="nav-link" href="#">
                         <span> One-Way Flights</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-video.html">
+                      <a class="nav-link" href="#">
                         <span>Non-Stop Flights</span>
                       </a>
                     </li>
@@ -392,37 +392,37 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li class="nav-item">
-                      <a class="nav-link" href="index-2.html">
+                      <a class="nav-link" href="#">
                         <span>To Asia</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-account.html">
+                      <a class="nav-link" href="#">
                         <span>To Africa</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-video.html">
+                      <a class="nav-link" href="#">
                         <span>To Europe</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-video.html">
+                      <a class="nav-link" href="#">
                         <span> To Middle East</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-video.html">
+                      <a class="nav-link" href="#">
                         <span> To India & ISC</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-video.html">
+                      <a class="nav-link" href="#">
                         <span>To Oceania</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-video.html">
+                      <a class="nav-link" href="#">
                         <span>To Latin America</span>
                       </a>
                     </li>
@@ -437,44 +437,44 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li class="nav-item">
-                      <a class="nav-link" href="index-2.html">
+                      <a class="nav-link" href="#">
                         <span>From Asia</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-account.html">
+                      <a class="nav-link" href="#">
                         <span>From Africa</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-video.html">
+                      <a class="nav-link" href="#">
                         <span>From Europe</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-video.html">
+                      <a class="nav-link" href="#">
                         <span> From Middle East</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-video.html">
+                      <a class="nav-link" href="#">
                         <span> From India & ISC</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-video.html">
+                      <a class="nav-link" href="#">
                         <span> From Oceania</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index-video.html">
+                      <a class="nav-link" href="#">
                         <span> From Latin America</span>
                       </a>
                     </li>
                     <a href="#">See All</a>
                   </ul>
                 </li>
-                <li class="nav-item dropdown"><a class="nav-link fw-bold text-uppercase" href="#"><span>About</span><i class="caret fa fa-angle-down ml-2"></i><img src="img/down.png" alt=""></a><ul class="dropdown-menu"><li class="nav-item"><a class="nav-link" href="index-2.html"><span>About Us</span></a></li><li class="nav-item"><a class="nav-link" href="index-account.html"><span>Reviews</span></a></li><li class="nav-item"><a class="nav-link" href="index-video.html"><span> Video</span></a></li><li class="nav-item"><a class="nav-link" href="index-video.html"><span> Customer Stories</span></a></li><li class="nav-item"><a class="nav-link" href="index-video.html"><span> Contact Us</span></a></li><li class="nav-item"><a class="nav-link" href="index-video.html"><span> Blog</span></a></li></ul></li>
+                <li class="nav-item dropdown"><a class="nav-link fw-bold text-uppercase" href="#"><span>About</span><i class="caret fa fa-angle-down ml-2"></i><img src="img/down.png" alt=""></a><ul class="dropdown-menu"><li class="nav-item"><a class="nav-link" href="#"><span>About Us</span></a></li><li class="nav-item"><a class="nav-link" href="#"><span>Reviews</span></a></li><li class="nav-item"><a class="nav-link" href="#"><span> Video</span></a></li><li class="nav-item"><a class="nav-link" href="#"><span> Customer Stories</span></a></li><li class="nav-item"><a class="nav-link" href="#"><span> Contact Us</span></a></li><li class="nav-item"><a class="nav-link" href="#"><span> Blog</span></a></li></ul></li>
                 <li class="nav-item dropdown">
                   <a class="nav-link fw-bold text-uppercase" href="#">
                     <span>How it works</span>
@@ -482,7 +482,7 @@
                     <img src="img/down.png" alt="">
                   </a>
                 </li>
-                <!-- <li class="nav-item dropdown"><a class="nav-link fw-bold text-uppercase" href="#"><span>Support</span><i class="caret fa fa-angle-down ml-2"></i><img src="img/down.png" alt=""></a><ul class="dropdown-menu"><li class="nav-item"><a class="nav-link" href="index-2.html"><span>Customer Service</span></a></li><li class="nav-item"><a class="nav-link" href="index-account.html"><span>My Booking</span></a></li><li class="nav-item"><a class="nav-link" href="index-video.html"><span>FAQ</span></a></li></ul></li> -->
+                <!-- <li class="nav-item dropdown"><a class="nav-link fw-bold text-uppercase" href="#"><span>Support</span><i class="caret fa fa-angle-down ml-2"></i><img src="img/down.png" alt=""></a><ul class="dropdown-menu"><li class="nav-item"><a class="nav-link" href="#"><span>Customer Service</span></a></li><li class="nav-item"><a class="nav-link" href="#"><span>My Booking</span></a></li><li class="nav-item"><a class="nav-link" href="#"><span>FAQ</span></a></li></ul></li> -->
              
               </ul>
               <div class="search d-lg-none">

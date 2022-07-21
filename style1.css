@@ -3767,7 +3767,61 @@ View Deals  page style start here
     top: 50%;
     transform: translateY(-50%);
 }
-
+.flightDetails .fright{
+    box-shadow: 0 0 10px 4px #00000036;
+    padding: 20px;
+    text-align: center;
+    margin-top: 110px;
+    border-radius: 5px;
+}
+.flightDetails .fright>div{}
+.flightDetails .fright>div.or{
+    position: relative;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+}
+.flightDetails .fright>div.or::before{
+    left: 0;
+}
+.flightDetails .fright>div.or::before,
+.flightDetails .fright>div.or::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45%;
+    height: 2px;
+    background-color: #ff6663;
+}
+.flightDetails .fright>div.or::after{
+    right: 0;
+}
+.flightDetails .fright>div>img{
+    margin-top: 15px;
+    width: 120px;
+}
+.flightDetails .fright h4{
+    padding: 3px 0;
+}
+.flightDetails .fright p{
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+}
+.flightDetails .fright a:last-child{
+    margin: 30px 0;
+    display: inline-block;
+}
+.flightDetails .fright a{
+    display: block;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.flightDetails .fright a img{
+    width: 30px !important;
+    margin-right: 8px;
+}
 .flightDetails .flightDetailsBox .boxBady .bodyright p:nth-child(2) img {
     position: absolute;
     width: 50px;

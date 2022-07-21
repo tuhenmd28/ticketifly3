@@ -73,7 +73,7 @@
     <div class="containerView">
         <div class="row">
             <div class="col-lg-7">
-                <h3 class="header-title color text-left">Flight details <span class="fs-6">Cheapest</span></h3>
+                <h3 class="header-title color">Flight details <span class="fs-6">Cheapest</span></h3>
                 <div class="flightDetailsBox">
                     <div class="d-flex">
                         <div class="leftHeader">
@@ -157,7 +157,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5"></div>
+            <div class="col-lg-5 ">
+                <div class="fright">
+                <div><img src="img/contact-us.png" width="150" alt=""></div>
+                <h4 class="header-title color">PHONE-ONLY DEAL</h4>
+                <p>Please contact your agent. We apologize for the inconvenience.</p>
+                <a href="tel:(800) 677 - 2943"><img src="img/phone-call.png" style="width:40px;" alt="">(800) 677 - 2943</a>
+                <a href="mailto:richard.w@ticketiflytickets.com">richard.w@ticketiflytickets.com</a>
+                <div class="or">or</div>
+                <a href="#" class="btn btn-secondary "><img src="img/incoming-call.png" style="width:20px;" alt=""> Request a Call Back</a>
+                </div>
+            </div>
         </div>
     </div>
 </scction>

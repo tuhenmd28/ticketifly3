@@ -21,7 +21,7 @@
               </div>
               <div class="col-lg-6 col-md-10 d-flex justify-content-center " style="margin-top: -20px; ;">
                 <div class="pnl-body">
-                  <form method="get" action=" #" class="formClass" style="transform:translateX(20px) ;">
+                  <form method="get" action=" #" class="formClass" style="transform:translateX(-20px) ;">
                     <div class="radiobtn">
                       <ul>
                         <li>

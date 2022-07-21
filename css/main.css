@@ -25,7 +25,7 @@
 }
 
 .gt-shape:before {
-  content: "";
+  content: "î¤œ";
 }
 
 /*  */
@@ -389,7 +389,7 @@
 	position: absolute;
 	bottom: 8px;
 	right: 0px;
-	width: 40px;
+	width: 25px;
 }
 .formIconTo li input {
   display: inline-block;
@@ -416,11 +416,11 @@
   font-weight: 700;
   margin-bottom: 16px;
 }
-.date li img{	
+.date li img{
   position: absolute;
-	bottom: 8px;
-	right: 0px;
-	width: 30px;
+  bottom: 8px;
+  right: 0px;
+  width: 20px;
   pointer-events: none;
 }
 
@@ -432,11 +432,12 @@
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 16px;}
-.ClsPger li img{	
+.ClsPger li img{
   position: absolute;
-	bottom: 8px;
-	right: 0px;
-	width: 40px;}
+  bottom: 8px;
+  right: 0px;
+  width: 25px;
+  }
   .btn-bottom {
     display: flex;
     align-items: center;

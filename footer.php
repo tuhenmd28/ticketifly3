@@ -322,6 +322,7 @@ flatpickr("#departure", {
       //   $('.lowest').show(500);
       //   $('div#overlay').show();
       // }
+
       flatpickr("#departure", {
         //  enableTime: true,
         dateFormat: "m/d/Y",

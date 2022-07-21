@@ -23,6 +23,9 @@
                     <h4>1. ITA AIRWAYS</h4>
                     <p>$ 849.86 <br> <span>Total</span></p>
                 </div>
+                <span class="note hoverItem" data-value="cheapest">cheapest 
+                <span class=" d-none">Least expensive option</span>
+                </span>
             </div>
             <div class="sliderItem" data-toggle="tab" data-target="#viewDeal2">
                 <div class="text-center"><img src="img/SY.gif" alt=""></div>
@@ -44,6 +47,9 @@
                     <h4>1. ITA AIRWAYS</h4>
                     <p>$ 849.86 <br> <span>Total</span></p>
                 </div>
+                <span class="note hoverItem" data-value="Shortest">Shortest 
+                <span class=" d-none">Firstest flight itinerary</span>
+                </span>
             </div>
             <div class="sliderItem" data-toggle="tab" data-target="#viewDeal5">
                 <div class="text-center"><img src="img/SY.gif" alt=""></div>
@@ -72,8 +78,9 @@
 <scction class="flightDetails">
     <div class="containerView">
         <div class="row">
-            <div class="col-lg-7">
-                <h3 class="header-title color">Flight details <span class="fs-6">Cheapest</span></h3>
+            <div class="col-lg-7 tab-content" >
+             <div class="tab-pane active" id="viewDeal1">
+              <h3 class="header-title color">Flight details <span class="fs-6">Cheapest</span></h3>
                 <div class="flightDetailsBox">
                     <div class="d-flex">
                         <div class="leftHeader">
@@ -156,6 +163,517 @@
                        </div>
                     </div>
                 </div>
+             </div>
+             <div class="tab-pane fade " id="viewDeal2">
+              <h3 class="header-title color">Flight details <span class="fs-6">Cheapest</span></h3>
+                <div class="flightDetailsBox">
+                    <div class="d-flex">
+                        <div class="leftHeader">
+                             <span>Munich</span>
+                              <img src="img/right-arrow.png" width="40" alt=""> 
+                              <span>New York</span>
+                              <span>Wed, Jul 20</span>
+                        </div>
+                        <div class="rightHeader">
+                            <span>Travel time: 25h 35m</span>
+                            <span>·1 Stop</span>
+                        </div>
+                    </div>
+                    <div class="boxBady">
+                       <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p ><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p class="dot">6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p>8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <h6> <span>14h 25m long layover</span> in Rome</h6>
+                            </div>
+                       </div>
+                        <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p>6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="flightDetailsBox mt-5">
+                    <div class="d-flex">
+                        <div class="leftHeader">
+                             <span>Munich</span>
+                              <img src="img/right-arrow.png" width="40" alt=""> 
+                              <span>New York</span>
+                              <span>Wed, Jul 20</span>
+                        </div>
+                        <div class="rightHeader">
+                            <span>Travel time: 25h 35m</span>
+                            <span>·1 Stop</span>
+                        </div>
+                    </div>
+                    <div class="boxBady">
+                       <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p ><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p class="dot">6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p>8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <h6> <span>14h 25m long layover</span> in Rome</h6>
+                            </div>
+                       </div>
+                        <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p>6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+             </div>
+             <div class="tab-pane fade " id="viewDeal3">
+              <h3 class="header-title color">Flight details <span class="fs-6">Cheapest</span></h3>
+                <div class="flightDetailsBox">
+                    <div class="d-flex">
+                        <div class="leftHeader">
+                             <span>Munich</span>
+                              <img src="img/right-arrow.png" width="40" alt=""> 
+                              <span>New York</span>
+                              <span>Wed, Jul 20</span>
+                        </div>
+                        <div class="rightHeader">
+                            <span>Travel time: 25h 35m</span>
+                            <span>·1 Stop</span>
+                        </div>
+                    </div>
+                    <div class="boxBady">
+                       <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p ><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p class="dot">6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p>8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <h6> <span>14h 25m long layover</span> in Rome</h6>
+                            </div>
+                       </div>
+                        <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p>6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="flightDetailsBox mt-5">
+                    <div class="d-flex">
+                        <div class="leftHeader">
+                             <span>Munich</span>
+                              <img src="img/right-arrow.png" width="40" alt=""> 
+                              <span>New York</span>
+                              <span>Wed, Jul 20</span>
+                        </div>
+                        <div class="rightHeader">
+                            <span>Travel time: 25h 35m</span>
+                            <span>·1 Stop</span>
+                        </div>
+                    </div>
+                    <div class="boxBady">
+                       <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p ><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p class="dot">6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p>8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <h6> <span>14h 25m long layover</span> in Rome</h6>
+                            </div>
+                       </div>
+                        <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p>6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+             </div>
+             <div class="tab-pane fade " id="viewDeal4">
+              <h3 class="header-title color">Flight details <span class="fs-6">Cheapest</span></h3>
+                <div class="flightDetailsBox">
+                    <div class="d-flex">
+                        <div class="leftHeader">
+                             <span>Munich</span>
+                              <img src="img/right-arrow.png" width="40" alt=""> 
+                              <span>New York</span>
+                              <span>Wed, Jul 20</span>
+                        </div>
+                        <div class="rightHeader">
+                            <span>Travel time: 25h 35m</span>
+                            <span>·1 Stop</span>
+                        </div>
+                    </div>
+                    <div class="boxBady">
+                       <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p ><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p class="dot">6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p>8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <h6> <span>14h 25m long layover</span> in Rome</h6>
+                            </div>
+                       </div>
+                        <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p>6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="flightDetailsBox mt-5">
+                    <div class="d-flex">
+                        <div class="leftHeader">
+                             <span>Munich</span>
+                              <img src="img/right-arrow.png" width="40" alt=""> 
+                              <span>New York</span>
+                              <span>Wed, Jul 20</span>
+                        </div>
+                        <div class="rightHeader">
+                            <span>Travel time: 25h 35m</span>
+                            <span>·1 Stop</span>
+                        </div>
+                    </div>
+                    <div class="boxBady">
+                       <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p ><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p class="dot">6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p>8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <h6> <span>14h 25m long layover</span> in Rome</h6>
+                            </div>
+                       </div>
+                        <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p>6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+             </div>
+             <div class="tab-pane fade " id="viewDeal5">
+              <h3 class="header-title color">Flight details <span class="fs-6">Cheapest</span></h3>
+                <div class="flightDetailsBox">
+                    <div class="d-flex">
+                        <div class="leftHeader">
+                             <span>Munich</span>
+                              <img src="img/right-arrow.png" width="40" alt=""> 
+                              <span>New York</span>
+                              <span>Wed, Jul 20</span>
+                        </div>
+                        <div class="rightHeader">
+                            <span>Travel time: 25h 35m</span>
+                            <span>·1 Stop</span>
+                        </div>
+                    </div>
+                    <div class="boxBady">
+                       <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p ><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p class="dot">6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p>8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <h6> <span>14h 25m long layover</span> in Rome</h6>
+                            </div>
+                       </div>
+                        <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p>6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="flightDetailsBox mt-5">
+                    <div class="d-flex">
+                        <div class="leftHeader">
+                             <span>Munich</span>
+                              <img src="img/right-arrow.png" width="40" alt=""> 
+                              <span>New York</span>
+                              <span>Wed, Jul 20</span>
+                        </div>
+                        <div class="rightHeader">
+                            <span>Travel time: 25h 35m</span>
+                            <span>·1 Stop</span>
+                        </div>
+                    </div>
+                    <div class="boxBady">
+                       <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p ><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p class="dot">6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p>8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <h6> <span>14h 25m long layover</span> in Rome</h6>
+                            </div>
+                       </div>
+                        <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p>6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+             </div>
+             <div class="tab-pane fade " id="viewDeal6">
+              <h3 class="header-title color">Flight details <span class="fs-6">Cheapest</span></h3>
+                <div class="flightDetailsBox">
+                    <div class="d-flex">
+                        <div class="leftHeader">
+                             <span>Munich</span>
+                              <img src="img/right-arrow.png" width="40" alt=""> 
+                              <span>New York</span>
+                              <span>Wed, Jul 20</span>
+                        </div>
+                        <div class="rightHeader">
+                            <span>Travel time: 25h 35m</span>
+                            <span>·1 Stop</span>
+                        </div>
+                    </div>
+                    <div class="boxBady">
+                       <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p ><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p class="dot">6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p>8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <h6> <span>14h 25m long layover</span> in Rome</h6>
+                            </div>
+                       </div>
+                        <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p>6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="flightDetailsBox mt-5">
+                    <div class="d-flex">
+                        <div class="leftHeader">
+                             <span>Munich</span>
+                              <img src="img/right-arrow.png" width="40" alt=""> 
+                              <span>New York</span>
+                              <span>Wed, Jul 20</span>
+                        </div>
+                        <div class="rightHeader">
+                            <span>Travel time: 25h 35m</span>
+                            <span>·1 Stop</span>
+                        </div>
+                    </div>
+                    <div class="boxBady">
+                       <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p ><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p class="dot">6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p>8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <h6> <span>14h 25m long layover</span> in Rome</h6>
+                            </div>
+                       </div>
+                        <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p>6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+             </div>
+             <div class="tab-pane fade " id="viewDeal7">
+              <h3 class="header-title color">Flight details <span class="fs-6">Cheapest</span></h3>
+                <div class="flightDetailsBox">
+                    <div class="d-flex">
+                        <div class="leftHeader">
+                             <span>Munich</span>
+                              <img src="img/right-arrow.png" width="40" alt=""> 
+                              <span>New York</span>
+                              <span>Wed, Jul 20</span>
+                        </div>
+                        <div class="rightHeader">
+                            <span>Travel time: 25h 35m</span>
+                            <span>·1 Stop</span>
+                        </div>
+                    </div>
+                    <div class="boxBady">
+                       <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p ><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p class="dot">6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p>8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <h6> <span>14h 25m long layover</span> in Rome</h6>
+                            </div>
+                       </div>
+                        <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p>6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="flightDetailsBox mt-5">
+                    <div class="d-flex">
+                        <div class="leftHeader">
+                             <span>Munich</span>
+                              <img src="img/right-arrow.png" width="40" alt=""> 
+                              <span>New York</span>
+                              <span>Wed, Jul 20</span>
+                        </div>
+                        <div class="rightHeader">
+                            <span>Travel time: 25h 35m</span>
+                            <span>·1 Stop</span>
+                        </div>
+                    </div>
+                    <div class="boxBady">
+                       <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p ><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p class="dot">6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p>8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <h6> <span>14h 25m long layover</span> in Rome</h6>
+                            </div>
+                       </div>
+                        <div>
+                        <div class="bodyleft">
+                                <div><img src="img/SY.gif" alt=""></div>
+                                <p><spna class="hoverItem" >AZ 433 <span class=" d-none">ITA Airways</span> </spna>   Economy</p>
+                                <p>Airbus Industrie A319-114</p>
+                            </div>
+                            <div class="bodyright">
+                                <p>6:25 PM <sup>Jul 20</sup> Munich, <spna class="hoverItem" >MUC <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                                <p> <img src="img/right-arrow.png" alt=""> Flight time: 1:35</p>
+                                <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+             </div>
             </div>
             <div class="col-lg-5 ">
                 <div class="fright">
@@ -169,6 +687,27 @@
                 </div>
             </div>
         </div>
+        <p>1000 N West Street, Suite 1200, Wilmington, DE 19801</p>
     </div>
 </scction>
+<section class="onlineChat">
+    <div class="onlineTitle">
+        <h4>Online Chat</h4>
+        <div class="close"><img src="img/times.png" style="width:25px" alt=""></div>
+    </div>
+    <div class="chatText">
+        <div class="chat">
+            <div class="manIcon"></div>
+            <p>
+                <span class="lead">Richard Woods</span>
+                In case you need any assistance let me know,
+            </p>
+        </div>
+    </div>
+    <div class="footerInput">
+        <textarea name="" id="" ></textarea>
+        <div class="icon"></div>
+    </div>
+</section>
+<!-- footerr content thakbe na only javaScript link thakbe -->
 <?php include "footer.php";?>

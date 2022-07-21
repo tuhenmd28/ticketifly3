@@ -3602,6 +3602,15 @@ FAQ page style end here
 View Deals  page style start here 
 *******************************************************************
 */
+.flightDetails h3.header-title span {
+    color: green;
+    padding-left: 10px;
+}
+.containerView>p{
+    margin: 30px 0 ;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.737);
+}
 .viewDealBanner{
     background:url(img/flightbanner.jpg) center no-repeat;
     background-size: cover;
@@ -3613,12 +3622,31 @@ View Deals  page style start here
     border-bottom: 4px solid #ff6663;
     transition: border-bottom .3s;
 }
+.sliderItem .hoverItem .d-none {
+    white-space: nowrap;
+    color: black;
+}
+.viewDealBanner .viweDealSlider .sliderItem .note {
+    text-decoration: none;
+    position: absolute;
+    background: #ff6663;
+    top: 0;
+    margin: 0;
+    right: 0px;
+    border-radius: 0 5px;
+    padding: 5px 7px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
 .viewDealBanner .viweDealSlider .sliderItem {
     background: #ffffffd6;
     border-bottom: 4px solid #eae8ff;
     margin: 0 8px;
     border-radius: 5px  5px 0 0;
     padding: 7px 10px 3px 10px;
+    position: relative;
+    margin-top: 41px;
 }
 .viweDealSlider span.next_arow.slick-arrow{
     left: -13px;

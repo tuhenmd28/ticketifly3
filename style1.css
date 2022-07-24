@@ -509,7 +509,10 @@ form .formcontent .passenger li {
 }
 
 input:focus{
-    border: 1px solid #2472BB!important;
+    border-bottom: 1px solid #ff6663 !important;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
 }
 
 
@@ -2486,7 +2489,7 @@ Cheap Flight Tickets page style start here
     box-shadow: 0 0 10px 2px #00000021;
     /* box-shadow: 0 0 10px 5px #0000001a; */
 }
-.mcform  div ul{
+.mcform  div>ul{
     justify-content: center;
     border: none;
     display: inline-flex;
@@ -4203,8 +4206,12 @@ button.btn.btn-secondary.btn--round.mr-2.mb-2.disabled,button.btn.btn-secondary.
     background: #21033a;border: 1px solid #21033a;font-weight: 700;font-size: 15px;padding: 12px 20px;color: #1dc6c8;opacity: 1;
 }
 
-
-
+.subscribe-form .btn {
+    padding: 0 1rem;
+}
+.subscribe-form .form-control:focus{
+    border: 1px solid white;
+}
 .page-footer {
     color: #fff;
     background-color: #eb4b48;

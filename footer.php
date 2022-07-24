@@ -213,7 +213,7 @@
             <form class="subscribe-form" action="#" method="POST">
                <div class="input-group input-group--lg flex-nowrap mb-4">
                   <input class="form-control form-control-lg" type="email" placeholder="Enter Your email" required> 
-                  <div class="input-group-append"> <button class="btn btn-btn btn-light btn--round" type="submit"> <i class="fa fa-send"></i> </button> </div>
+                  <div class="input-group-append"> <button class="btn btn-btn btn-light btn--round" type="submit"><img src="img/send.png"  style="width:35px ;" alt=""> </button> </div>
                </div>
                <p>We guarantee your confidentiality, and we also undertake not to transfer your email address to third parties.</p>
             </form>
@@ -275,15 +275,14 @@
    <script src="js/demo-switcher.js"></script> 
    <script src="./js/main.js"></script>
    <script>
-     // multicity page add new section
-     var input = document.querySelector("#phone");
-window.intlTelInput(input, {
-  separateDialCode: true
-});
-     let addbtn = $('#add');
+  // multicity page add new section
+let aItem = $(".banner .mcform div .nav-tabs .nav-item:nth-child(2) a.nav-link");
+let tabItem = $(".banner .tab-content>.tab-pane:nth-child(2)");
+let tabItem1 = $(".banner .tab-content>.tab-pane");
+  let addbtn = $('#add');
    $('#add').click(function(event){
    event.preventDefault();
-
+   console.log('thik ache');
    $('#dublicate>li:last-child').after(`<li >
                  <div>
                  <p>
@@ -299,14 +298,19 @@ window.intlTelInput(input, {
                  </div>
                  <button class="remove"><img src="img/times.png" width="20px" alt=""></button>
                </li>`);
- $(".remove").each(function(){
-  $(this).click(function(event){
-    event.preventDefault();
-    $(this).parent().hide(300);
+
+  $(".remove").each(function(){
+    $(this).click(function(event){
+      event.preventDefault();
+      let length = $('ol#dublicate').find("li:visible").length;
+      if(length > 2){
+      $(this).parent().hide(300);
+      }
 
   })
 })
-flatpickr("#departure", {
+
+flatpickr("input#departure", {
         //  enableTime: true,
         dateFormat: "m/d/Y",
         minDate: "today",
@@ -317,11 +321,20 @@ flatpickr("#departure", {
  $(".remove").each(function(){
   $(this).click(function(event){
     event.preventDefault();
-    $(this).parent().hide(300);
-
+    let length = $('ol#dublicate').find("li:visible").length;
+    if(length > 2){
+      $(this).parent().hide(300);
+    }else{
+      aItem.addClass('active show');
+      aItem.siblings().removeClass('active show')
+      tabItem.addClass('active show');
+      tabItem.siblings().removeClass('active show')
+    }
   })
 })
 
+// .banner .mcform div .nav-tabs a.nav-link
+// .banner .tab-content>.tab-pane.fade
       // window.onload = function() {
       //   $('.lowest').show(500);
       //   $('div#overlay').show();
@@ -355,7 +368,7 @@ flatpickr("#departure", {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 200000000,
+        autoplaySpeed: 2000,
         prevArrow: '  <span class="next_arow"> <i class="fas fa-chevron-left"></i> </span>',
         nextArrow: '  <span class="prev_arow"> <i class="fas fa-chevron-right"></i> </span>',
         responsive: [{
@@ -423,7 +436,7 @@ flatpickr("#departure", {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000000,
+        autoplaySpeed: 2000,
         prevArrow: '  <span class="next_arow d-none"> <i class="fas fa-chevron-left"></i> </span>',
         nextArrow: '  <span class="prev_arow d-none"> <i class="fas fa-chevron-right"></i> </span>',
       });
@@ -538,6 +551,10 @@ flatpickr("#departure", {
         $('.classAndPassenger.classAndPassenger1').hide(500);
     })
     let inputItem =$('.ClsPger li:first-child input ');
+    var input = document.querySelector("#phone");
+      window.intlTelInput(input, {
+      separateDialCode: true
+    });
     </script> 
   </body> 
 </html>

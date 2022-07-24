@@ -83,8 +83,9 @@ function load3(){
     })
 
 // FAQ page filter function and other code end
+console.log('86');
 
-
+console.log('133');
 // viewDeal page top slider active class code start 
 $('.viewDealBanner .viweDealSlider .sliderItem').each(function(){
     $(this).click(function(){
@@ -140,7 +141,14 @@ singleItem.each(function(){
 
 // singleAirline page modal code
 
-
+// index page airport 
+$('.formIconTo li ul li').each(function(){
+    $(this).click(function(){
+        $(this).parent().hide();
+        let value = $(this).attr('data-title');
+        $(this).parent().siblings("input").val(value);
+    });
+})
 
 // single Airline page economy and business tabs start 
 

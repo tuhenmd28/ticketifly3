@@ -42,6 +42,43 @@
                         <label for="form">Form</label>
                         <input type="text" name="form" id="form" placeholder="New York (NYC)">
                         <img src="img/pin.png" alt="" class="location" width="30">
+                        <ul class="airport">
+                          <li data-title="Dhaka (DAC)">
+                            <div>
+                              <h6>Zia Intl Airport</h6>
+                              <span>Bangladesh Dhaka</span>
+                            </div>
+                            <div>DAC</div>
+                          </li>
+                          <li data-title="Dhaka (DAC)">
+                            <div>
+                              <h6>Zia Intl Airport</h6>
+                              <span>Bangladesh Dhaka</span>
+                            </div>
+                            <div>DAC</div>
+                          </li>
+                          <li data-title="Dhaka (DAC)">
+                            <div>
+                              <h6>Zia Intl Airport</h6>
+                              <span>Bangladesh Dhaka</span>
+                            </div>
+                            <div>DAC</div>
+                          </li>
+                          <li data-title="Dhaka (DAC)">
+                            <div>
+                              <h6>Zia Intl Airport</h6>
+                              <span>Bangladesh Dhaka</span>
+                            </div>
+                            <div>DAC</div>
+                          </li>
+                          <li data-title="Dhaka (DAC)">
+                            <div>
+                              <h6>Zia Intl Airport</h6>
+                              <span>Bangladesh Dhaka</span>
+                            </div>
+                            <div>DAC</div>
+                          </li>
+                        </ul>
                       </li>
                       <li>
                         <img class="arrow" src="img/transfer (1).png" style="width:40px;" alt="">
@@ -50,6 +87,43 @@
                         <label for="form">To</label>
                         <input type="text" name="to" id="form" placeholder="Sydney (YQY)">
                         <img src="img/pin.png" alt="" class="location" width="30">
+                        <ul class="airport">
+                          <li data-title="Dhaka (DAC)">
+                            <div>
+                              <h6>Zia Intl Airport</h6>
+                              <span>Bangladesh Dhaka</span>
+                            </div>
+                            <div>DAC</div>
+                          </li>
+                          <li data-title="Dhaka (DAC)">
+                            <div>
+                              <h6>Zia Intl Airport</h6>
+                              <span>Bangladesh Dhaka</span>
+                            </div>
+                            <div>DAC</div>
+                          </li>
+                          <li data-title="Dhaka (DAC)">
+                            <div>
+                              <h6>Zia Intl Airport</h6>
+                              <span>Bangladesh Dhaka</span>
+                            </div>
+                            <div>DAC</div>
+                          </li>
+                          <li data-title="Dhaka (DAC)">
+                            <div>
+                              <h6>Zia Intl Airport</h6>
+                              <span>Bangladesh Dhaka</span>
+                            </div>
+                            <div>DAC</div>
+                          </li>
+                          <li data-title="Dhaka (DAC)">
+                            <div>
+                              <h6>Zia Intl Airport</h6>
+                              <span>Bangladesh Dhaka</span>
+                            </div>
+                            <div>DAC</div>
+                          </li>
+                        </ul>
                       </li>
                     </div>
                     <div class="date">
@@ -105,7 +179,7 @@
                           </div>
                           <span class="btn btn-primary float-right mt-3">Done</span>
                         </div>
-                        <img src="img/profile.png" alt="">
+                        <img src="img/man.png" alt="">
                       </li>
                       <li>
                         <label for=""> class</label>

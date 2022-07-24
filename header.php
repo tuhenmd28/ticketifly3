@@ -204,7 +204,7 @@
               </div>
               <div class="col col-lg-6 d-none d-md-flex align-items-center justify-content-center">
                 <a class="page-header__call d-flex align-items-center text-nowrap" href="tel:880000112222333">
-                  <i class="icon icon-call js-tooltip-call mr-3" data-toggle="tooltip" data-placement="bottom" title="Support 8-800-0011-2222-333"></i>
+                  <img src="img/man.png" style="width:32px;" alt="">
                   <div class="page-header__call-right">
                     <div class="title fz-small">Support</div>
                     <div class="phone fw-bold">8-800-0011-2222-333</div>

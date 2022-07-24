@@ -97,7 +97,33 @@ $('.viewDealBanner .viweDealSlider .sliderItem').each(function(){
         }
     });
 });
-// viewDeal page top slider active class code end
+
+// chat section
+$('.messageIcon').click(function(){
+    console.log('click');
+    // $('.onlineChat').addClass('show') 
+    $('.onlineChat').show(400) 
+
+})
+$('.onlineChat .onlineTitle .close1').click(function(){
+    $('.onlineChat').hide(300) 
+})
+$('.onlineChat .footerInput textarea').keyup(function(){
+   let value = $(this).val()
+   if(!value == ""){
+    $('.onlineChat .footerInput .icon img').show(22);
+   }
+
+})
+// bottom arrow section 
+$('.dealsInfoBottom .right .clickShow').each(function(){
+    $(this).click(function(){
+        console.log('click');
+        $(this).find('img').toggleClass('roted');
+        $(this).find('.showBox').slideToggle();
+})
+})
+// viewDeal page top slider active class code end transform: rotate(45deg);
 
 
 // singleAirline page modal code

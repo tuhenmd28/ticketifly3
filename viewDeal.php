@@ -163,6 +163,23 @@
                        </div>
                     </div>
                 </div>
+                <div class="dealsInfoBottom">
+                    <div class="left">
+                        <div><img src="img/SY.gif" alt=""></div>
+                        <h4>1. ITA AIRWAYS</h4>
+                    </div>
+                    <div class="right">
+                    <div class="clickShow">
+                        <img src="img/point-down.png" style="width:30px;position:relative;" alt="">
+                        <div class="showBox">
+                            <h4>$849.86 <span>Total per adult (x1)</span></h4>
+                            <p>Average price calculation is based on all travellers excluding lap infants</p>
+                        </div>
+                    </div>    
+                    <h4>$849.86 <span>Total per adult</span></h4>
+                        <a href="#" class="btn btn-secondary "><img src="img/incoming-call.png" style="width:20px;" alt="">Call to Book</a>
+                    </div>
+                </div>
              </div>
              <div class="tab-pane fade " id="viewDeal2">
               <h3 class="header-title color">Flight details <span class="fs-6">Cheapest</span></h3>
@@ -246,6 +263,23 @@
                                 <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
                             </div>
                        </div>
+                    </div>
+                </div>
+                <div class="dealsInfoBottom">
+                    <div class="left">
+                        <div><img src="img/SY.gif" alt=""></div>
+                        <h4>1. ITA AIRWAYS</h4>
+                    </div>
+                    <div class="right">
+                    <div class="clickShow">
+                        <img src="img/point-down.png" style="width:30px;position:relative;" alt="">
+                        <div class="showBox">
+                            <h4>$849.86 <span>Total per adult (x1)</span></h4>
+                            <p>Average price calculation is based on all travellers excluding lap infants</p>
+                        </div>
+                    </div>    
+                    <h4>$849.86 <span>Total per adult</span></h4>
+                        <a href="#" class="btn btn-secondary "><img src="img/incoming-call.png" style="width:20px;" alt="">Call to Book</a>
                     </div>
                 </div>
              </div>
@@ -333,6 +367,23 @@
                        </div>
                     </div>
                 </div>
+                <div class="dealsInfoBottom">
+                    <div class="left">
+                        <div><img src="img/SY.gif" alt=""></div>
+                        <h4>1. ITA AIRWAYS</h4>
+                    </div>
+                    <div class="right">
+                    <div class="clickShow">
+                        <img src="img/point-down.png" style="width:30px;position:relative;" alt="">
+                        <div class="showBox">
+                            <h4>$849.86 <span>Total per adult (x1)</span></h4>
+                            <p>Average price calculation is based on all travellers excluding lap infants</p>
+                        </div>
+                    </div>    
+                    <h4>$849.86 <span>Total per adult</span></h4>
+                        <a href="#" class="btn btn-secondary "><img src="img/incoming-call.png" style="width:20px;" alt="">Call to Book</a>
+                    </div>
+                </div>
              </div>
              <div class="tab-pane fade " id="viewDeal4">
               <h3 class="header-title color">Flight details <span class="fs-6">Cheapest</span></h3>
@@ -416,6 +467,23 @@
                                 <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
                             </div>
                        </div>
+                    </div>
+                </div>
+                <div class="dealsInfoBottom">
+                    <div class="left">
+                        <div><img src="img/SY.gif" alt=""></div>
+                        <h4>1. ITA AIRWAYS</h4>
+                    </div>
+                    <div class="right">
+                    <div class="clickShow">
+                        <img src="img/point-down.png" style="width:30px;position:relative;" alt="">
+                        <div class="showBox">
+                            <h4>$849.86 <span>Total per adult (x1)</span></h4>
+                            <p>Average price calculation is based on all travellers excluding lap infants</p>
+                        </div>
+                    </div>    
+                    <h4>$849.86 <span>Total per adult</span></h4>
+                        <a href="#" class="btn btn-secondary "><img src="img/incoming-call.png" style="width:20px;" alt="">Call to Book</a>
                     </div>
                 </div>
              </div>
@@ -503,6 +571,23 @@
                        </div>
                     </div>
                 </div>
+                <div class="dealsInfoBottom">
+                    <div class="left">
+                        <div><img src="img/SY.gif" alt=""></div>
+                        <h4>1. ITA AIRWAYS</h4>
+                    </div>
+                    <div class="right">
+                    <div class="clickShow">
+                        <img src="img/point-down.png" style="width:30px;position:relative;" alt="">
+                        <div class="showBox">
+                            <h4>$849.86 <span>Total per adult (x1)</span></h4>
+                            <p>Average price calculation is based on all travellers excluding lap infants</p>
+                        </div>
+                    </div>    
+                    <h4>$849.86 <span>Total per adult</span></h4>
+                        <a href="#" class="btn btn-secondary "><img src="img/incoming-call.png" style="width:20px;" alt="">Call to Book</a>
+                    </div>
+                </div>
              </div>
              <div class="tab-pane fade " id="viewDeal6">
               <h3 class="header-title color">Flight details <span class="fs-6">Cheapest</span></h3>
@@ -586,6 +671,23 @@
                                 <p class="dot">8:00 PM <sup>Jul 20</sup> Rome, <spna class="hoverItem" >FCO <span class=" d-none">MUC -Munich Intl Arpt Munich,Germany</span> </spna> </p>
                             </div>
                        </div>
+                    </div>
+                </div>
+                <div class="dealsInfoBottom">
+                    <div class="left">
+                        <div><img src="img/SY.gif" alt=""></div>
+                        <h4>1. ITA AIRWAYS</h4>
+                    </div>
+                    <div class="right">
+                    <div class="clickShow">
+                        <img src="img/point-down.png" style="width:30px;position:relative;" alt="">
+                        <div class="showBox">
+                            <h4>$849.86 <span>Total per adult (x1)</span></h4>
+                            <p>Average price calculation is based on all travellers excluding lap infants</p>
+                        </div>
+                    </div>    
+                    <h4>$849.86 <span>Total per adult</span></h4>
+                        <a href="#" class="btn btn-secondary "><img src="img/incoming-call.png" style="width:20px;" alt="">Call to Book</a>
                     </div>
                 </div>
              </div>
@@ -673,6 +775,23 @@
                        </div>
                     </div>
                 </div>
+                <div class="dealsInfoBottom">
+                    <div class="left">
+                        <div><img src="img/SY.gif" alt=""></div>
+                        <h4>1. ITA AIRWAYS</h4>
+                    </div>
+                    <div class="right">
+                    <div class="clickShow">
+                        <img src="img/point-down.png" style="width:30px;position:relative;" alt="">
+                        <div class="showBox">
+                            <h4>$849.86 <span>Total per adult (x1)</span></h4>
+                            <p>Average price calculation is based on all travellers excluding lap infants</p>
+                        </div>
+                    </div>    
+                    <h4>$849.86 <span>Total per adult</span></h4>
+                        <a href="#" class="btn btn-secondary "><img src="img/incoming-call.png" style="width:20px;" alt="">Call to Book</a>
+                    </div>
+                </div>
              </div>
             </div>
             <div class="col-lg-5 ">
@@ -693,21 +812,30 @@
 <section class="onlineChat">
     <div class="onlineTitle">
         <h4>Online Chat</h4>
-        <div class="close"><img src="img/times.png" style="width:25px" alt=""></div>
+        <div class="close1"><img src="img/times.png" style="width:25px" alt=""></div>
     </div>
     <div class="chatText">
         <div class="chat">
-            <div class="manIcon"></div>
+            <div class="manIcon"><img src="img/avatar-face.jpg" alt=""></div>
+            <p>
+                <span class="lead">Richard Woods</span>
+                In case you need any assistance let me know,
+            </p>
+        </div>
+        <div class="chat rightSide">
+            <!-- <div class="manIcon"><img src="img/avatar-face.jpg" alt=""></div> -->
             <p>
                 <span class="lead">Richard Woods</span>
                 In case you need any assistance let me know,
             </p>
         </div>
     </div>
-    <div class="footerInput">
-        <textarea name="" id="" ></textarea>
-        <div class="icon"></div>
-    </div>
+    <form class="footerInput">
+    <textarea name="message" id="" placeholder="Typing message ..." ></textarea>
+        <div class="icon"> <button type="submit" ><img src="img/send.png" class="send " style="width:25px;" alt=""></button> </div>
+    </form>
 </section>
+
+<div class="messageIcon"><img src="img/text-message.png" width="40px" alt=""></div>
 <!-- footerr content thakbe na only javaScript link thakbe -->
 <?php include "footer.php";?>

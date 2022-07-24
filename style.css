@@ -170,9 +170,33 @@ a.nav-link.btn.btn-light.js-toggle-account {
     flex-wrap: nowrap;
     margin-left: auto;
     margin-right: 0;
+    gap: 10px;
     align-items: center;
 }
-
+/* .page-header__top .nav-panel li {} */
+.page-header__top .nav-panel li:nth-child(2) a.social-link{
+    color: #4267B2;
+}
+.page-header__top .nav-panel li:nth-child(3) a.social-link{
+    color: #1DA1F2;
+}
+.page-header__top .nav-panel li:nth-child(4) a.social-link i {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.page-header__top .nav-panel li:nth-child(5) a.social-link{
+    color: #FF0000;
+}
+.page-header__top .nav-panel li:nth-child(6) a.social-link{
+    color: #128C7E;
+}
+.page-header__top .nav-panel li a {
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 50%;
+}
 .fixCallAnimation{
     position: fixed;
     bottom: 15px;

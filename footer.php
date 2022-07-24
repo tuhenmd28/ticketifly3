@@ -264,9 +264,9 @@
 <script src="js/libs/validator.min.js"></script> 
 <script src="js/libs/jquery.barrating.min.js"></script> 
 <script src="js/libs/jquery.blueimp-gallery.min.js"></script> 
-<!-- 
-   
-   <script src="js/main.js"></script> --> 
+
+<!--  <script src="js/main.js"></script> --> 
+<script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
    <script src="js/script.min.js"></script> 
    <script src="js/demo-switcher.js"></script> 
@@ -276,6 +276,10 @@
    <script src="./js/main.js"></script>
    <script>
      // multicity page add new section
+     var input = document.querySelector("#phone");
+window.intlTelInput(input, {
+  separateDialCode: true
+});
      let addbtn = $('#add');
    $('#add').click(function(event){
    event.preventDefault();
@@ -351,7 +355,7 @@ flatpickr("#departure", {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 200000000,
         prevArrow: '  <span class="next_arow"> <i class="fas fa-chevron-left"></i> </span>',
         nextArrow: '  <span class="prev_arow"> <i class="fas fa-chevron-right"></i> </span>',
         responsive: [{
@@ -398,14 +402,19 @@ flatpickr("#departure", {
         responsive: [{
           breakpoint: 992,
           settings: {
+            slidesToShow: 4,
+          }
+        }, {
+          breakpoint: 790,
+          settings: {
             slidesToShow: 3,
           }
         }, {
-          breakpoint: 500,
+          breakpoint: 600,
           settings: {
             slidesToShow: 2,
           }
-        }, ]
+        } ]
       });
 
       $('.pilot').slick({

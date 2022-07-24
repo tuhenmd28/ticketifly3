@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
     <link id="cssTheme" rel="stylesheet" href="skins/style-default.css">
+    <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="style.min.css">
     <link rel="stylesheet" href="style1.css">
@@ -229,12 +230,11 @@
                       <span>log in</span>
                     </a>
                   </li>
-                  <li class="nav-item d-flex">
-                    <a class="nav-link btn btn-light js-toggle-account" href="#">
-                      <img src="img/facebook1.png" style="width:25px ;" alt="">
-                      <span>Connecting</span>
-                    </a>
-                  </li>
+                  <li> <a class="social-link" href="#" target="_blank"> <i class="fa-brands fa-facebook"></i> </a> </li>
+                  <li> <a class="social-link" href="#" target="_blank"> <i class="fa-brands fa-twitter"></i> </a> </li>
+                  <li> <a class="social-link" href="#" target="_blank"> <i class="fa-brands fa-instagram"></i> </a> </li>
+                  <li> <a class="social-link" href="#" target="_blank"> <i class="fa-brands fa-youtube"></i> </a> </li>
+                  <li> <a class="social-link" href="#" target="_blank"> <i class="fa-brands fa-whatsapp"></i> </a> </li>
                 </ul>
               </div>
             </div>

@@ -30,7 +30,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
     <link id="cssTheme" rel="stylesheet" href="skins/style-default.css">
     <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/>
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="style.min.css">
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="style.css">

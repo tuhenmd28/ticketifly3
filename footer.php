@@ -233,48 +233,25 @@
    </div>
 </footer>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3gFKhVywUkygSxQEBdGVrI5-ZRrdjueA"></script> 
-<script src="js/maps.js"></script> 
-<script src="js/libs/moment.min.js"></script> 
-<script src="js/libs/wNumb.js"></script> 
-<script src="js/libs/nouislider.min.js"></script> 
+
 <script src="js/libs/jquery.min.js"></script> 
 <script src="js/libs/jquery-ui.min.js"></script> 
-<script src="js/libs/barba.min.js"></script> 
-<script src="js/libs/sticky-kit.min.js"></script> 
-<script src="js/libs/velocity.min.js"></script> 
-<script src="js/libs/velocity.ui.min.js"></script> 
 <script src="js/libs/jquery.waypoints.min.js"></script> 
 <script src="js/libs/popper.min.js"></script> 
 <script src="js/libs/bootstrap.min.js"></script> 
-<script src="js/libs/imagesloaded.pkgd.min.js"></script> 
-<script src="js/libs/masonry.pkgd.min.js"></script> 
-<script src="js/libs/isotope.pkgd.min.js"></script> 
 <script src="js/libs/ofi.min.js"></script> 
 <script src="js/libs/jarallax.min.js"></script> 
-<script src="js/libs/jarallax-video.min.js"></script> 
-<script src="js/libs/jarallax-element.min.js"></script> 
-<script src="js/libs/jquery.mCustomScrollbar.min.js"></script> 
-<script src="js/libs/swiper.min.js"></script> 
-<script src="js/libs/flatpickr/flatpickr.min.js"></script> 
-<script src="js/libs/flatpickr/rangePlugin.js"></script> 
-<script src="js/libs/select2.min.js"></script> 
-<script src="js/libs/select2/en.js"></script> 
-<script src="js/libs/jquery.mask.min.js"></script> 
-<script src="js/libs/validator.min.js"></script> 
-<script src="js/libs/jquery.barrating.min.js"></script> 
-<script src="js/libs/jquery.blueimp-gallery.min.js"></script> 
 
-<!--  <script src="js/main.js"></script> --> 
+<script src="js/libs/jquery.mCustomScrollbar.min.js"></script> 
 <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-   <script src="js/script.min.js"></script> 
-   <script src="js/demo-switcher.js"></script> 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> 
-   <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script> 
-   <script src="js/demo-switcher.js"></script> 
-   <script src="./js/main.js"></script>
-   <script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.min.js"></script> 
+<!-- <script src="js/demo-switcher.js"></script>  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script> 
+<script src="js/demo-switcher.js"></script> 
+<script src="./js/main.js"></script>
+<script>
   // multicity page add new section
 let aItem = $(".banner .mcform div .nav-tabs .nav-item:nth-child(2) a.nav-link");
 let tabItem = $(".banner .tab-content>.tab-pane:nth-child(2)");

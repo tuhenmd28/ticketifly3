@@ -326,10 +326,3 @@ a.nav-link.btn.btn-light.js-toggle-account {
 	border-radius: 3px;
 	padding: 2px;
 }
-@media (min-width:991px) 
-{
-    ul.nav li.dropdown:hover > ul.dropdown-menu 
-    {
-       display: block !important;
-    }
-}

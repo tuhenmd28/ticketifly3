@@ -223,6 +223,12 @@ $('.page-header__call').click(function(){
     $('div#overlay').show();
     $('.lowest').toggle();
 })
+$('.whycall .container>p >a').click(function(e){
+    e.preventDefault();
+    $('div#overlay').toggle();
+    $('.lowest').toggle();
+    $(document).scrollTop(0);
+})
 $('.fixCallAnimation').click(function(){
     $('div#overlay').show();
     $('.lowest').toggle();

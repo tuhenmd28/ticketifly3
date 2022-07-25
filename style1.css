@@ -2477,9 +2477,73 @@ Top Airline Deals page style end here
 Cheap Flight Tickets page style start here 
 *******************************************************************
 */
-
+.allDeals{}
+.allDeals .areaWraper{
+    display: flex;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.allDeals .areaWraper .aitem::after{
+    right:50%; 
+}
+.allDeals .areaWraper .aitem::before {
+    left: 50%;
+}
+.allDeals .areaWraper .aitem::after,
+.allDeals .areaWraper .aitem::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px !important;
+    background-color: #ff6663;
+    bottom: 0;
+    transition: all .4s;
+    top: 100%;
+}
+.allDeals .areaWraper .aitem:hover::after,
+.allDeals .areaWraper .aitem:hover::before{
+    width: 49%;
+}
+.allDeals .areaWraper .aitem:hover{
+    background: #c2d1f1;
+}
+.allDeals .areaWraper .aitem:hover a{
+    text-decoration: underline;
+}
+.allDeals .areaWraper .aitem{
+    position: relative;
+    transition: all .5s;
+    display: flex;
+    flex: 1 0 320px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 2px #00000021;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background: #eae8ff;
+    max-width: 28%;
+    text-decoration: none;
+}
+.allDeals .areaWraper .aitem span{
+    font-size: 25px;
+    padding: 10px;
+    color: #ff6663;
+}
+.allDeals .areaWraper .aitem a{
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+    z-index: 22;
+}
+.allDeals .areaWraper .aitem
 .cheapFlightTicketBanner .col-lg-6{
     margin: 30px 0;
+}
+.allDeals .areaWraper .aitem span img{
+    width: 30px;
+    transform: rotate(-90deg);
 }
 .bannerSection .col-lg-6 >div{
     background: #eae8ff;
@@ -2552,14 +2616,14 @@ Cheap Flight Tickets page style start here
     margin-bottom: 15px;
     color: black;
 }
-.cheapFlightTicketBanner .col-lg-6 >div>h4{
+.cheapFlightTicketBanner .col-lg-6 >div>h4 {
     text-transform: capitalize;
-    font-size: 25px;
+    font-size: 24px;
     width: 79%;
     margin: auto;
-    color: green;
+    color: #ff6663;
     font-weight: 500;
-    padding-bottom: 35px;
+    padding-bottom: 11px;
 }
 /* .cheapFlightTicketBanner .col-lg-6 >div>.tab-content{} */
 /* .cheapFlightTicketBanner .col-lg-6 >div>.tab-content form>p{} */
@@ -2590,9 +2654,9 @@ Cheap Flight Tickets page style start here
     position: relative;
     box-shadow: 0 0 10px 4px #0000000d;
 }
-.cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.cover{
+.cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.cover {
     width: 50%;
-    background: transparent;
+    background: #ffffff;
     position: absolute;
     top: -29px;
     left: 50%;
@@ -2600,7 +2664,8 @@ Cheap Flight Tickets page style start here
     padding: 10px;
     color: #ff6663;
     border-radius: 5px;
-    box-shadow: 0 0 10px 1px #0000002e;
+    box-shadow: 0 0 10px 1px #0000000f;
+    z-index: 1;
 }
 .cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.cover>h4{
     font-weight: 700;
@@ -2625,6 +2690,21 @@ Cheap Flight Tickets page style start here
     color: #ff6663;
     font-weight: 900;
 }
+/* .airlineImage{}
+.airlineImage .header-title{}
+.airlineImage .header-title span{} */
+.airlineImage .airlinecompany {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.airlineImage .airlinecompany>div {
+    flex: 1;
+    text-align: center;
+}
+.airlineImage .airlinecompany>div>img{
+    max-width: 100%;
+}
 .cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.subdiv>div>strong>sup{color: black;}
 .cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.subdiv>div>p{
     text-align: left;
@@ -2632,7 +2712,7 @@ Cheap Flight Tickets page style start here
     color: black;
 }
 .cheapFlightTicketBanner .col-lg-6 >div>.maindiv>.subdiv>div>p>del{
-    color: #ff6663;
+    color: #000000;
     font-size: 25px;
     font-weight: 900;
 }
@@ -3342,6 +3422,7 @@ section.singleBanner.bread.banner nav ol li.breadcrumb-item a {
 section.whycall.singleAirline {
     margin-top: 50px;
 }
+#singlemodel .Drightside .callEx form .row div input#phone,
 #singlemodel .Drightside .callEx>form>.row>div>input {
     padding: 4px 0 4px 8px;
     padding: 7px 0 7px 10px;
@@ -3789,7 +3870,7 @@ View Deals  page style start here
 }
 .messageIcon{
     position: fixed;
-    bottom: 4%;
+    bottom:65px;
     right: 2%;
     z-index: 500;
     background: white;
@@ -4167,6 +4248,9 @@ View Deals  page style end here
 .iti {
     width: 100%;
 }
+.iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container {
+    top: 4px;
+}
 nav .main-nav__list .nav-item .dropdown-menu>.memutitle>a>i {
     display: none;
 }
@@ -4347,6 +4431,21 @@ a:hover {
 }
   
 @media(max-width:991px){
+    .allDeals .areaWraper .aitem a {
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    .allDeals .areaWraper .aitem {
+        flex: 1 0 261px;
+        max-width: 31%;
+    }
+    .allDeals .areaWraper .aitem span {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .allDeals .areaWraper .aitem span img {
+        width: 21px;
+    }
     .containerView>p {
         text-align: center;
     }
@@ -4992,6 +5091,10 @@ nav .main-nav__list .nav-link {
 
 }
 @media(max-width:596px){
+    .allDeals .areaWraper .aitem {
+        flex: 1 0 261px;
+        max-width: 44%;
+    }
     .phoneArea .picon img {
         display: none;
     }
@@ -5025,6 +5128,15 @@ nav .main-nav__list .nav-link {
     }
 }
 @media(max-width:575px){
+    .airlineImage .airlinecompany {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .airlineImage .airlinecompany>div {
+        flex: 1 0 auto;
+        text-align: center;
+        width: 29%;
+    }
     .Discount .discuntwrap {
         width: 80%;
     }
@@ -5326,6 +5438,15 @@ nav .main-nav__list .nav-link {
 @media(max-width:450px){
     .dealsInfoBottom .left {
         display: none;
+    }
+    .allDeals .areaWraper .aitem span {
+        font-size: 14px;
+    }
+    .allDeals .areaWraper .aitem span img {
+        width: 16px;
+    }
+    .allDeals .areaWraper .aitem a {
+        font-size: 16px;
     }
     .Discount .discuntwrap {
         width: 100%;

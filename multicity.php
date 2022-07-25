@@ -260,7 +260,7 @@
                     <label for="form">To</label>
                     <input type="text" name="to" id="form" placeholder="Sydney (YQY)">
                     <img src="img/pin.png" alt="" class="location" width="30">
-                    <ul class="airport">
+                    <ul class="airport to">
                           <li data-title="Dhaka (DAC)">
                             <div>
                               <h6>Zia Intl Airport</h6>

@@ -324,11 +324,6 @@ flatpickr("input#departure", {
     let length = $('ol#dublicate').find("li:visible").length;
     if(length > 2){
       $(this).parent().hide(300);
-    }else{
-      aItem.addClass('active show');
-      aItem.siblings().removeClass('active show')
-      tabItem.addClass('active show');
-      tabItem.siblings().removeClass('active show')
     }
   })
 })

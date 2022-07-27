@@ -246,7 +246,6 @@
 <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/script.min.js"></script> 
-<!-- <script src="js/demo-switcher.js"></script>  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script> 
 <script src="js/demo-switcher.js"></script> 
@@ -324,7 +323,6 @@ flatpickr("input#departure", {
         minDate: "today",
         // maxDate: new Date().fp_incr(14)
       });
-    </script> <script>
       config = {
         altInput: true,
         altFormat: "F j, Y",
@@ -333,7 +331,6 @@ flatpickr("input#departure", {
       flatpickr("input[type=datetime-local]", {
         config
       });
-    </script> <script>
       $('.commendSlider').slick({
         infinite: true,
         speed: 1000,
@@ -426,6 +423,7 @@ flatpickr("input#departure", {
       let subtractbtn1 = $('.classAndPassenger.classAndPassenger1>div >div >.btnsubadd>span:nth-child(1)');
       let numbershowbtn1 = $(".classAndPassenger.classAndPassenger1>div >div >.btnsubadd>span:nth-child(2)");
       let additionbtn1 = $(".classAndPassenger.classAndPassenger1>div >div >.btnsubadd>span:nth-child(3)");
+      let firstNumShowbtn = $(".classAndPassenger>div >div:first-child .btnsubadd>span:nth-child(2)")
       function subtract1(){
         subtractbtn1.each(function(){
         $(this).click(function(){
@@ -438,22 +436,18 @@ flatpickr("input#departure", {
             let totalvalue = maincunter1();
             if(totalvalue <= 9){
                 $('.ClsPger li:first-child input ').val(totalvalue +" "+ 'Passengers' );
-                // let inputValue = Number(inputItem.val().slice(0,1));
-                // if(inputValue == 1){
-                //   inputValue + 1
-                // }
-                // console.log(inputValue);
-                // if(inputValue>1){
-                //   $('.ClsPger li:first-child input ').val(totalvalue +" "+ 'Passengers' );
-                // }else{
-                //   $('.ClsPger li:first-child input ').val(totalvalue +" "+ 'Passenger' );
-                // }
               }
-            if(value <= 1 ){
+            if(value < 1 ){
                 item.addClass('disable')
+                console.log(value);
             }else{
                 item.removeClass('disable')
             }
+            if(value <= 1){
+                firstNumShowbtn.prev().addClass('disable')
+              }else{
+                item.removeClass('disable')
+              }
             if(totalvalue >= 9){
                 additionbtn.addClass('disable')
             }else{

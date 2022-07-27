@@ -230,8 +230,10 @@ $('.whycall .container>p >a').click(function(e){
     $(document).scrollTop(0);
 })
 $('.fixCallAnimation').click(function(){
-    $('div#overlay').show();
+    $('div#overlay').toggle();
     $('.lowest').toggle();
+    $(document).scrollTop(0);
+
 })
 $('.top-div .wrap >div').click(function(){
     $('.top-div').hide(150);
@@ -273,94 +275,6 @@ $(".text p").click(function(){
         $('.search').children('img').attr('src','img/search.png');
 
     })
-// }
-
-// // for search icon 
-// $(document).ready(function(){
-//     console.log('click');
-//     $("form .formcontent .passenger.sicon li").click(function(){
-//         $(".passenger.sicon .addpsgerwraper").toggle(500);
-//     })
-//     $(".passenger.sicon button.ok.btn.btn-primary").click(function(){
-//         $(".passenger.sicon .addpsgerwraper").hide(500);
-//     })   
-
-// })
-
-// let passengerSicon = $(".passenger.sicon .addpsgerwraper .passengerAdd span");
-// let passengerSicon1 =Number( passengerSicon[0].textContent);
-// let passengerSicon2 = Number(passengerSicon[1].textContent);
-// let passengerSicon3 = Number(passengerSicon[2].textContent);
-// let sumSicon = passengerSicon1 + passengerSicon2 + passengerSicon3;
-// let btnSicon;
-// let countSicon;
-// $("form .formcontent .passenger.sicon .invisible").val(Number(sumSicon.slice(0,2)));
-
-// function additionS(e){
-//     btnSicon = e;
-//     countSicon = Number(btnSicon.previousElementSibling.textContent)
-//     if(countSicon<=10){
-//         ++countSicon;
-//     }
-//     btnSicon.previousElementSibling.innerHTML = countSicon;
-//      passengerSicon1 =Number( passengerSicon[0].textContent);
-//      passengerSicon2 = Number(passengerSicon[1].textContent);
-//      passengerSicon3 = Number(passengerSicon[2].textContent);
-//     sumSicon = passengerSicon1 + passengerSicon2 + passengerSicon3;
-//     if(sumSicon==1){
-//         sumSicon =  `${sumSicon} passenger`;
-//     }else{
-//         sumSicon =  `${sumSicon} passengers`;
-
-//     }
-//     $("form .formcontent .passenger.sicon li samp").text(sumSicon);
-//     $("form .formcontent .passenger.sicon .invisible").val(Number(sumSicon.slice(0,1)));
-
-// }
-// function sumtractS(e){
-//     btnSicon = e;
-//     countSicon = Number(btnSicon.nextElementSibling.textContent)
-//     if(countSicon>=2){
-//         --countSicon;
-//     }
-//     btnSicon.nextElementSibling.innerHTML = countSicon;
-//      passengerSicon1 =Number( passengerSicon[0].textContent);
-//      passengerSicon2 = Number(passengerSicon[1].textContent);
-//      passengerSicon3 = Number(passengerSicon[2].textContent);
-//     sumSicon = passengerSicon1 + passengerSicon2 + passengerSicon3;
-//     if(sumSicon==1){
-//         sumSicon =  `${sumSicon} passenger`;
-//     }else{
-//         sumSicon =  `${sumSicon} passengers`;
-        
-//     }
-//     $("form .formcontent .passenger.sicon li samp").text(sumSicon);
-//     $("form .formcontent .passenger.sicon .invisible").val(Number(sumSicon.slice(0,1)));
-
-// }
-// function sumtract1S(e){
-//     btnSicon = e;
-//     countSicon = Number(btnSicon.nextElementSibling.textContent)
-//     if(countSicon>=1){
-//         --countSicon;
-//     }
-//     btnSicon.nextElementSibling.innerHTML = countSicon;
-//      passengerSicon1 =Number( passengerSicon[0].textContent);
-//      passengerSicon2 = Number(passengerSicon[1].textContent);
-//      passengerSicon3 = Number(passengerSicon[2].textContent);
-//     sumSicon = passengerSicon1 + passengerSicon2 + passengerSicon3;
-//     if(sumSicon==1){
-//         sumSicon =  `${sumSicon} passenger`;
-//     }else{
-//         sumSicon =  `${sumSicon} passengers`;
-
-//     }
-//     $("form .formcontent .passenger.sicon li samp").text(sumSicon);
-//     $("form .formcontent .passenger.sicon .invisible").val(Number(sumSicon.slice(0,1)));
-// }
- 
-// search icon click 
-
 
 // slider locatin element filter
 
@@ -389,11 +303,16 @@ function subtract(){
             if(totalvalue <= 9){
                 $('.total').text(totalvalue +" "+ classvlaue);
             }
-            if(value <= 1 ){
+            if(value < 1 ){
                 item.addClass('disable')
             }else{
                 item.removeClass('disable')
             }
+            if(value <= 1){
+                firstNumShowbtn.prev().addClass('disable')
+              }else{
+                item.removeClass('disable')
+              }
             if(totalvalue >= 9){
                 additionbtn.addClass('disable')
             }else{

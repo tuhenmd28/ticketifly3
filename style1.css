@@ -361,12 +361,6 @@ nav .main-nav__list .nav-item:hover .dropdown-menu{
 
 }
 
-
-/* nav .main-nav__list .nav-link:hover{
-    color: black;
-    background: white;
-    opacity: 1;
-} */
 nav .main-nav__list .nav-item .dropdown-menu>a {
     display: block;
     text-align: center;

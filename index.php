@@ -997,61 +997,7 @@
            </div>
         </div>
      </section>
-    <!-- search area  --> 
-    <div class=" scerch_container">
-      <form action="" method="post">
-         <div class="formcontent">
-            <div class="row justify-content-between">
-               <div class="col">
-                  <ul>
-                     <li> <input type="radio" name="radio" id="Round-Trip"> <label for="Round-Trip">Round-Trip</label> </li>
-                     <li> <input type="radio" name="radio" id="One-Way"> <label for="One-Way">One-Way</label> </li>
-                     <li> <a href="">Multi-City Flights</a> </li>
-                  </ul>
-               </div>
-               <div class="col">
-                  <span>Cabin Class:</span> 
-                  <select name="cabin" id="">
-                     <option value="">Economy</option>
-                     <option value="premium-economy">Premium Economy</option>
-                     <option value="business">Business</option>
-                  </select>
-               </div>
-            </div>
-            <div class="row btmbox ">
-               <div class="distination">
-                  <li> <input type="text" name="" placeholder="Depart Form"> <img src="img/airplane-flight.png" alt=""> </li>
-                  <div> <img src="img/transfer.png" alt=""> </div>
-                  <li> <input type="text" name="" placeholder="Arrive at"> <img src="img/landing.png" alt=""> </li>
-               </div>
-               <div class="date">
-                  <li> <input type="datetime-local" name="" id="coustomdate" placeholder="Departure date"> <img src="img/calendar.png" alt=""> </li>
-                  <li> <input type="datetime-local" name="" id="coustomdate" placeholder="Return date"> <img src="img/calendar.png" alt=""> </li>
-               </div>
-               <div class="passenger sicon">
-                  <input type="number" class="invisible d-none " value=""> 
-                  <li> <samp>1passenger</samp> <span> <img src="img/down-arrow.png" style="width: 15px;" alt=""> </span> </li>
-                  <div class="addpsgerwraper">
-                     <div class="passengerAdd">
-                        <div>Adults  <samp class="text-muted fs-6">(over 18)</samp> </div>
-                        <div class="allbtn"> <button onclick="sumtractS(this)" type="button" class="btnwhite"> <img src="img/minus-sign.png" alt=""> </button> <span class="bgGray">1</span> <button onclick="additionS(this)" type="button" class="btnwhite"> <img src="img/add.png" alt=""> </button> </div>
-                     </div>
-                     <div class="passengerAdd">
-                        <div>Children  <samp class="text-muted fs-6">(under 18)</samp> </div>
-                        <div class="allbtn"> <button onclick="sumtract1S(this)" type="button" class="btnwhite"> <img src="img/minus-sign.png" alt=""> </button> <span class="bgGray">0</span> <button onclick="additionS(this)" type="button" class="btnwhite"> <img src="img/add.png" alt=""> </button> </div>
-                     </div>
-                     <div class="passengerAdd">
-                        <div>Infants  <samp class="text-muted fs-6">(under 3)</samp> </div>
-                        <div class="allbtn"> <button onclick="sumtract1S(this)" type="button" class="btnwhite"> <img src="img/minus-sign.png" alt=""> </button> <span class="bgGray">0</span> <button onclick="additionS(this)" type="button" class="btnwhite"> <img src="img/add.png" alt=""> </button> </div>
-                     </div>
-                     <button type="button" class="ok btn btn-primary">Ok</button> 
-                  </div>
-               </div>
-            </div>
-            <div class="formbtn"> <button type="submit" class="btn btn-primary"> Search Flights </button> </div>
-         </div>
-      </form>
-   </div>
+
 <section class="savemoney text-center">
    <div class="container">
       <h4 class="headertitle">Save Money & Time with Ticketifly Tickets</h4>

@@ -233,8 +233,8 @@
    </div>
 </footer>
 
-
 <script src="js/libs/jquery.min.js"></script> 
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="js/libs/jquery-ui.min.js"></script> 
 <script src="js/libs/jquery.waypoints.min.js"></script> 
 <script src="js/libs/popper.min.js"></script> 
@@ -250,6 +250,7 @@
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script> 
 <script src="js/demo-switcher.js"></script> 
 <script src="./js/main.js"></script>
+
 <script>
   // multicity page add new section
 let aItem = $(".banner .mcform div .nav-tabs .nav-item:nth-child(2) a.nav-link");

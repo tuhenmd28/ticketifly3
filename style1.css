@@ -84,7 +84,7 @@ section.whycall {
     width:20px;
 }
 .phoneArea .picon img {
-    width: 35px;
+    width: 45px;
     cursor: pointer;
 }
 .phoneArea .picon {
@@ -93,6 +93,7 @@ section.whycall {
 }
 .phoneArea .picon::after {
     content: "";
+    display: none;
     position: absolute;
     top: -10%;
     left: 4px;
@@ -130,11 +131,14 @@ section.whycall {
 .phoneArea{
     display: flex;
     align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 .text p {
     /* font-size: 9px; */
     color: black;
     font-weight: 900;
+    margin-bottom: 8px;
 }
 .text> div{
     /* font-size: 9px; */
@@ -143,12 +147,14 @@ section.whycall {
 }
 .text {
     color: #ffffff99;
-    font-size: 11px;
+    font-size: 14px;
+    text-align: left;
+    /* margin-left: 15px; */
 }
 .text a {
-    color: #7684ed;
-    font-size: 13px;
-    background: #00000012;
+    /* color: #7684ed; */
+    font-size: 15px;
+    /* background: #00000012; */
 }
 .text .number a.idhover {
     position: relative;

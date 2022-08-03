@@ -1,9 +1,30 @@
 
+window.onload = showAlert();
 // location element filter 
 window.onload = load();
 window.onload = load1();
 window.onload = load2();
 window.onload = load3();
+function showAlert(){
+    Swal.fire({
+        title: '<strong style="color:#ff6663;">Form Data Submitted Successfully!</strong>',
+        icon: 'success',
+        html:
+          '<div class="phoneArea"> ' +
+          '<div class="picon"><img src="img/phone-call.png" alt=""></div> ' +
+          '<div class="text"> ' +
+          '<p>Call Us Toll-Free 24/7: <a href="#"> 1-650-263-1714</a></p>' +
+          '<div class="number"> Discount ID: <a href="" class="idhover">' +
+          '25-66-57-6 <span class="hover">Individual Discount ID gives you an opportunity to book tickets at special discount or at' +
+          'exclusive price.</span></a></div></div></div>'+
+          '<ul class="d-flex justify-content-center Asocial-ul "><li> <a class="social-link" href="#" target="_blank"> <i class="fa-brands fa-facebook"></i> </a> </li>'+
+          '<li> <a class="social-link" href="#" target="_blank"> <i class="fa-brands fa-twitter"></i> </a> </li>'+
+          '<li> <a class="social-link" href="#" target="_blank"> <i class="fa-brands fa-instagram"></i> </a> </li>'+
+          '<li> <a class="social-link" href="#" target="_blank"> <i class="fa-brands fa-youtube"></i> </a> </li>'+
+          '  <li> <a class="social-link" href="#" target="_blank"> <i class="fa-brands fa-whatsapp"></i> </a> </li></ul>',
+        showCloseButton: true,
+      })
+}
 function load(){
     $('.filterLocation .btnlist>li').click(function(){
         $(this).addClass('active');

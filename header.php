@@ -212,14 +212,8 @@
                 <div class="phoneArea d-none">
                   <!-- <div class="picon"><img src="img/phone-call.png" alt=""></div> -->
                   <div class="text">
-                    <p>Call Us Toll-Free 24/7: <a href="
-                          "> 1-650-263-1714</a>
-                    </p>
-                    <div class="number"> Discount ID: <a href="" class="idhover"> 25-66-57-6 <span class="hover">Individual Discount ID gives you an opportunity to book tickets at special discount or at exclusive price.</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                    <p>Call Us Toll-Free 24/7: <a href="#"> 1-650-263-1714</a></p>
+                    <div class="number"> Discount ID: <a href="" class="idhover"> 25-66-57-6 <span class="hover">Individual Discount ID gives you an opportunity to book tickets at special discount or at exclusive price.</span></a></div></div></div>
               </div>
               <div class="col col-lg-3 d-none d-md-flex">
                 <ul class="nav nav-panel">
